@@ -1,6 +1,4 @@
----
-title: Les 2 Lesprogramma (L2)
----
+% Les 2 Lesprogramma (L2)
 
 # Opgave L2.1 - Length
 
