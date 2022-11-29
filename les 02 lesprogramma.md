@@ -37,7 +37,7 @@ Vergelijk de .-operator (in ``lijst.length``) met de \[\]-operator (``lijst[i]``
 
 Gegeven onderstaande stuk code.
 
-```java
+```Java
 String[] idLijst = {"8b3", "4bf", "9h0"};
 
 void setup() {
@@ -81,7 +81,7 @@ Had de methode ``plakCodeVoorIdLijst(String\[\] lijst, String code)`` ook ``plak
 
 Voer onderstaand programma uit en je krijgt een foutmelding.
 
-```java
+```Java
 void setup() {
    int[] deLijst;
    deLijst[0] = 1;
@@ -103,7 +103,7 @@ Teken het geheugenmodel op het moment dat regel 3 wordt uitgevoerd en leg aan de
 
 Bekijk onderstaande code:
 
-```java
+```Java
 void setup() {
    String product1naam = "pc";
    String product2naam = "mac";
@@ -126,7 +126,7 @@ We willen graag gebruik maken van een loop om alle producten te printen. Pas de 
 
 Laten we naar één product kijken. We willen de eigenschappen naam en prijs groeperen. Dus we willen een 'ding' hebben met de eigenschappen naam en prijs:
 
-```java
+```Java
 void setup() {
    ??Type?? product1;
 
@@ -160,7 +160,7 @@ In opgave doeFunctie, onderdeel A uit de vorige les heb je een runtime administr
 
 De opgaven gaan over de onderstaande code:
 
-```java
+```Java
 01 int[] deLijst;
 02 int hetGetal;
 03 
@@ -194,7 +194,7 @@ Teken het geheugenmodel :
 
 Hoe ziet de laatste versie van het geheugenmodel eruit als de declaratie van de variabelen ``deLijst`` en ``hetGetal`` in setup uitgevoerd wordt zoals hieronder te zien is:
 
-```java
+```Java
 01 void setup() { 
 02 int hetGetal = 10;
 03 int\[\] deLijst = maakLijstMetEenGetal(2, hetGetal);
