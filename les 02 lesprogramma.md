@@ -17,7 +17,7 @@ Gegeven onderstaand programma
 
 Hieronder is het geheugenmodel te zien van het programma in de for-lus net na de aanroep van println op regel 5.
 
-![image0](/images/media/image0.png?raw=true)
+![image0](/images/media/image0.png)
  
 ## L2.1 A
 
