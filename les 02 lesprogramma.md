@@ -1,4 +1,5 @@
-% Les 2 Lesprogramma (L2)
+Les 2 - Lesprogramma (L2)
+=========================
 
 # Opgave L2.1 - Length
 
@@ -16,8 +17,8 @@ Gegeven onderstaand programma
 
 Hieronder is het geheugenmodel te zien van het programma in de for-lus net na de aanroep van println op regel 5.
 
-![][1]
-
+![image0][images\media\image0.png {width="5.239583333333333in" height="2.6041666666666665in"}]
+ 
 ## L2.1 A
 
 Teken de variabele length met bijbehorende waarde op de juiste plek in dit model.
@@ -209,7 +210,3 @@ Gebruik in de uitleg zoveel mogelijk de technische begrippen die tot nu toe zijn
 
 Is het, over het algemeen, verstandig om de methode ``maakLijstMetEenGetal`` gebruik te laten maken van ``deLijst`` en ``hetGetal``.
 Gebruik in de uitleg zoveel mogelijk de technische begrippen die tot nu toe zijn behandeld.
-
-## 
-
-  [1]: images\media\image0.png {width="5.239583333333333in" height="2.6041666666666665in"}
