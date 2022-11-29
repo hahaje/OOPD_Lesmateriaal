@@ -17,7 +17,7 @@ Gegeven onderstaand programma
 
 Hieronder is het geheugenmodel te zien van het programma in de for-lus net na de aanroep van println op regel 5.
 
-![image0](.\images\media\image0.png {width="5.239583333333333in" height="2.6041666666666665in"})
+![image0](./images/media/image0.png {width="5.239583333333333in" height="2.6041666666666665in"})
  
 ## L2.1 A
 
