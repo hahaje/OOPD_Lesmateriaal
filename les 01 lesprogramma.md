@@ -1,6 +1,6 @@
----
-title: Les 1 Lesprogramma (L1)
----
+Les 1 Lesprogramma (L1)
+======================
+
 # Opgave L1.1 - Delen
 
 *Individueel, programmeervaardigheid*
