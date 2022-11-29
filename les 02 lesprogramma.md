@@ -197,7 +197,7 @@ Hoe ziet de laatste versie van het geheugenmodel eruit als de declaratie van de 
 ```Java
 01 void setup() { 
 02 int hetGetal = 10;
-03 int\[\] deLijst = maakLijstMetEenGetal(2, hetGetal);
+03 int[] deLijst = maakLijstMetEenGetal(2, hetGetal);
 04 }
    // .. rest van de code weggelaten
 ```
