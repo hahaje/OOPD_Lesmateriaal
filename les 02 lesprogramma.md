@@ -17,7 +17,6 @@ Gegeven onderstaand programma
 
 Hieronder is het geheugenmodel te zien van het programma in de for-lus net na de aanroep van println op regel 5.
 
-![image0](/images/media/image0.png)
 <img src="/images/media/image0.png" width=50% height=50%>
 
  
