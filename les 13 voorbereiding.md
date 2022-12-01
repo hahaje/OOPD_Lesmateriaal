@@ -99,7 +99,9 @@ In deze opgave ga je met behulp van een interface dit switch-statement wegwerken
 
 ## V13.3 A
 
-![][1]Hieronder is een klassendiagram te zien waarin een oplossing geboden wordt. Schrijf de code voor de Interface IGereedschap en voor alle gereedschappen die deze interface implementeren. Verplaatst de code uit mousePressed naar de juiste klassen.
+Hieronder is een klassendiagram te zien waarin een oplossing geboden wordt. Schrijf de code voor de Interface IGereedschap en voor alle gereedschappen die deze interface implementeren. Verplaatst de code uit mousePressed naar de juiste klassen.
+
+![image1](images\media\image1.png)
 
 ## V13.3 B
 
