@@ -8,8 +8,10 @@ Les 1 - Lesprogramma (L1)
 ## L1.1 A
 
 Wanneer je twee gehele getallen door elkaar deelt, krijg je niet automatisch een kommagetal, terwijl dat soms wel wenselijk is.
+
 Bijvoorbeeld: 
 `println(5 / 2);` 
+
 levert 2 op, terwijl het handig kan zijn dat er 2.5 uit zou komen.
 Maak een functie, `floatDelen`, die twee gehele getallen heeft als invoer. De functie deelt het eerste getal door het tweede getal en retourneert het resultaat als een kommagetal.
 
