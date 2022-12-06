@@ -1,0 +1,270 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Les 13 Voorbereiding - Object-Oriented Program Development</title>
+        <!-- Custom HTML head -->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="les 01 lesprogramma.html"><strong aria-hidden="true">1.</strong> Les 01 Lesprogramma</a></li><li class="chapter-item expanded "><a href="les 02 voorbereiding.html"><strong aria-hidden="true">2.</strong> Les 02 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 02 lesprogramma.html"><strong aria-hidden="true">3.</strong> Les 02 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 03 voorbereiding.html"><strong aria-hidden="true">4.</strong> Les 03 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 03 lesprogramma.html"><strong aria-hidden="true">5.</strong> Les 03 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 04 voorbereiding.html"><strong aria-hidden="true">6.</strong> Les 04 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 04 lesprogramma.html"><strong aria-hidden="true">7.</strong> Les 04 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 05 voorbereiding.html"><strong aria-hidden="true">8.</strong> Les 05 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 05 lesprogramma.html"><strong aria-hidden="true">9.</strong> Les 05 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 06 voorbereiding.html"><strong aria-hidden="true">10.</strong> Les 06 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 06 lesprogramma.html"><strong aria-hidden="true">11.</strong> Les 06 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 07 voorbereiding.html"><strong aria-hidden="true">12.</strong> Les 07 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 07 lesprogramma.html"><strong aria-hidden="true">13.</strong> Les 07 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 08 voorbereiding.html"><strong aria-hidden="true">14.</strong> Les 08 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 08 lesprogramma.html"><strong aria-hidden="true">15.</strong> Les 08 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 09 voorbereiding.html"><strong aria-hidden="true">16.</strong> Les 09 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 09 lesprogramma.html"><strong aria-hidden="true">17.</strong> Les 09 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 10 voorbereiding.html"><strong aria-hidden="true">18.</strong> Les 10 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 10 lesprogramma.html"><strong aria-hidden="true">19.</strong> Les 10 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 11 voorbereiding.html"><strong aria-hidden="true">20.</strong> Les 11 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 11 lesprogramma.html"><strong aria-hidden="true">21.</strong> Les 11 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 12 voorbereiding.html"><strong aria-hidden="true">22.</strong> Les 12 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 12 lesprogramma.html"><strong aria-hidden="true">23.</strong> Les 12 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 13 voorbereiding.html" class="active"><strong aria-hidden="true">24.</strong> Les 13 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 13 lesprogramma.html"><strong aria-hidden="true">25.</strong> Les 13 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 14 voorbereiding.html"><strong aria-hidden="true">26.</strong> Les 14 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 14 lesprogramma.html"><strong aria-hidden="true">27.</strong> Les 14 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 15 voorbereiding.html"><strong aria-hidden="true">28.</strong> Les 15 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 15 lesprogramma.html"><strong aria-hidden="true">29.</strong> Les 15 Lespogramma</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Object-Oriented Program Development</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="les-13---voorbereiding-v13"><a class="header" href="#les-13---voorbereiding-v13">Les 13 - Voorbereiding (V13)</a></h1>
+<h1 id="theorie"><a class="header" href="#theorie">Theorie</a></h1>
+<h2 id="screencast-over-onderwerp-10-interfaces"><a class="header" href="#screencast-over-onderwerp-10-interfaces">Screencast over onderwerp 10: Interfaces</a></h2>
+<p><a href="http://www.youtube.com/playlist?list=PLpd9jJvk1PjnR8YVs3ZsZtJoGbtJLSUV_">http://www.youtube.com/playlist?list=PLpd9jJvk1PjnR8YVs3ZsZtJoGbtJLSUV_</a></p>
+<h2 id="boek"><a class="header" href="#boek">Boek</a></h2>
+<h3 id="hoofdstuk-12"><a class="header" href="#hoofdstuk-12">Hoofdstuk 12</a></h3>
+<p>12.6 t/m 12.9 pagina 458 t/m 469</p>
+<h1 id="opgave-v131---het-woord-interface"><a class="header" href="#opgave-v131---het-woord-interface">Opgave V13.1 - Het woord Interface</a></h1>
+<p>Bij het maken van (objectgeörienteerde) programma's komt de term &quot;interface&quot; geregeld voorbij. Geef drie mogelijke betekenissen van het woord &quot;interface&quot;.</p>
+<h1 id="opgave-v132---meerdere-interfaces-implementeren"><a class="header" href="#opgave-v132---meerdere-interfaces-implementeren">Opgave V13.2 - Meerdere interfaces implementeren</a></h1>
+<p>Zoals in de screencast wordt verteld, is het in Java niet toegestaan om van meerdere klasses te erven (&quot;multiple inheritance&quot; bestaat in Java niet), maar mag je wel meerdere interfaces implementeren en daarnaast zelfs nog van een klasse erven. Waarom is multiple inheritance wel een probleem, maar het implementeren van meerdere interfaces niet?</p>
+<h1 id="opgave-v133---van-if-else-naar-interface"><a class="header" href="#opgave-v133---van-if-else-naar-interface">Opgave V13.3 - Van if-else naar Interface</a></h1>
+<p>Gegeven een applicatie waarmee rechthoeken en cirkels getekend geplaatst en verwijderd kunnen worden.</p>
+<pre><code class="language-java">import java.util.ArrayList;
+import processing.core.PApplet;
+
+public class TekenApp extends PApplet {
+
+   public static void main(String[] args) {
+      PApplet.main(&quot;week5.ifelsenaarinterface.TekenApp&quot;);
+   }
+
+   private ArrayList&lt;Figuur&gt; figurenLijst = new ArrayList&lt;&gt;();
+   private String huidigGereedschap = &quot;selecteer&quot;;
+
+   public void settings() {
+      size(400, 400);
+   }
+
+   public void draw() {
+      background(0);
+      for (Figuur figuur : figurenLijst) {
+         figuur.teken(this);
+      }
+   }
+
+   public void mousePressed() {
+      switch (huidigGereedschap) {
+
+         case &quot;selecteer&quot;:
+            System.out.println(&quot;s&quot;);
+            break;
+
+         case &quot;rechthoek&quot;:
+            Rechthoek r = new Rechthoek( mouseX, mouseY, 50, 50);
+            figurenLijst.add(r);
+            break;
+
+         case &quot;cirkel&quot;:
+            Cirkel c = new Cirkel(mouseX, mouseY, 50);
+            figurenLijst.add(c);
+            break;
+
+         case &quot;gum&quot;:
+            for (int i = figurenLijst.size() - 1; i &gt;= 0; i--) {
+               Figuur fig = figurenLijst.get(i);
+
+               if (fig.isMuisBinnen(mouseX, mouseY)) {
+                  figurenLijst.remove(i);
+               }
+            }
+            break;
+      }
+   }
+
+   public void keyReleased() {
+      switch (key) {
+         case 's':
+            huidigGereedschap = &quot;selecteer&quot;;
+            break;
+            
+         case 'r':
+            huidigGereedschap = &quot;rechthoek&quot;;
+            break;
+            
+         case 'c':
+            huidigGereedschap = &quot;cirkel&quot;;
+            break;
+            
+         case 'g':
+            huidigGereedschap = &quot;gum&quot;;
+            break;
+      }
+   }
+}
+</code></pre>
+<p>Hoewel deze code werkt, is het uitbreiden ervan lastig. Het probleem zit hem in het switch-statement in de methode <code>mousePressed()</code>.</p>
+<p>Zodra er een nieuw gereedschap toegevoegd moet worden, moet het gedrag van dit gereedschap toegevoegd worden op een onoverzichtelijk plek. Daarnaast moet de naam van dit gereedschap op meerdere plekken gebruikt, zonder dat de compiler kan controleren of die naam goed geschreven is.</p>
+<p>In deze opgave ga je met behulp van een interface dit switch-statement wegwerken.</p>
+<h2 id="v133-a"><a class="header" href="#v133-a">V13.3 A</a></h2>
+<p>Hieronder is een klassendiagram te zien waarin een oplossing geboden wordt. Schrijf de code voor de interface <code>IGereedschap</code> en voor alle gereedschappen die deze interface implementeren. Verplaatst de code uit de <code>mousePressed</code> naar de juiste klassen.
+<img src="images/gereedschapCD.png" alt="gereedschapCD" /></p>
+<h2 id="v133-b"><a class="header" href="#v133-b">V13.3 B</a></h2>
+<p>Verander in het hoofdprogramma de code uit <code>keyReleased()</code> en <code>mousPressed</code> zodanig dat er optimaal gebruik wordt gemaakt van alle gereedschapsklassen.</p>
+<p>Als het goed is bestaat de code in <code>mousePressed()</code> na aanpassing uit slechts één regel. Overigens hoef je het switch-statement uit <code>keyReleased()</code> alleen aan te passen. Weg werken van dit statement is niet nodig</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="les 12 lesprogramma.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="les 13 lesprogramma.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="les 12 lesprogramma.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="les 13 lesprogramma.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

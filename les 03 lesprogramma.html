@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Les 03 Lespogramma - Object-Oriented Program Development</title>
+        <!-- Custom HTML head -->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="les 01 lesprogramma.html"><strong aria-hidden="true">1.</strong> Les 01 Lesprogramma</a></li><li class="chapter-item expanded "><a href="les 02 voorbereiding.html"><strong aria-hidden="true">2.</strong> Les 02 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 02 lesprogramma.html"><strong aria-hidden="true">3.</strong> Les 02 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 03 voorbereiding.html"><strong aria-hidden="true">4.</strong> Les 03 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 03 lesprogramma.html" class="active"><strong aria-hidden="true">5.</strong> Les 03 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 04 voorbereiding.html"><strong aria-hidden="true">6.</strong> Les 04 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 04 lesprogramma.html"><strong aria-hidden="true">7.</strong> Les 04 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 05 voorbereiding.html"><strong aria-hidden="true">8.</strong> Les 05 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 05 lesprogramma.html"><strong aria-hidden="true">9.</strong> Les 05 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 06 voorbereiding.html"><strong aria-hidden="true">10.</strong> Les 06 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 06 lesprogramma.html"><strong aria-hidden="true">11.</strong> Les 06 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 07 voorbereiding.html"><strong aria-hidden="true">12.</strong> Les 07 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 07 lesprogramma.html"><strong aria-hidden="true">13.</strong> Les 07 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 08 voorbereiding.html"><strong aria-hidden="true">14.</strong> Les 08 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 08 lesprogramma.html"><strong aria-hidden="true">15.</strong> Les 08 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 09 voorbereiding.html"><strong aria-hidden="true">16.</strong> Les 09 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 09 lesprogramma.html"><strong aria-hidden="true">17.</strong> Les 09 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 10 voorbereiding.html"><strong aria-hidden="true">18.</strong> Les 10 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 10 lesprogramma.html"><strong aria-hidden="true">19.</strong> Les 10 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 11 voorbereiding.html"><strong aria-hidden="true">20.</strong> Les 11 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 11 lesprogramma.html"><strong aria-hidden="true">21.</strong> Les 11 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 12 voorbereiding.html"><strong aria-hidden="true">22.</strong> Les 12 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 12 lesprogramma.html"><strong aria-hidden="true">23.</strong> Les 12 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 13 voorbereiding.html"><strong aria-hidden="true">24.</strong> Les 13 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 13 lesprogramma.html"><strong aria-hidden="true">25.</strong> Les 13 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 14 voorbereiding.html"><strong aria-hidden="true">26.</strong> Les 14 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 14 lesprogramma.html"><strong aria-hidden="true">27.</strong> Les 14 Lespogramma</a></li><li class="chapter-item expanded "><a href="les 15 voorbereiding.html"><strong aria-hidden="true">28.</strong> Les 15 Voorbereiding</a></li><li class="chapter-item expanded "><a href="les 15 lesprogramma.html"><strong aria-hidden="true">29.</strong> Les 15 Lespogramma</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Object-Oriented Program Development</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="les-3---lesprogramma-l3"><a class="header" href="#les-3---lesprogramma-l3">Les 3 - Lesprogramma (L3)</a></h1>
+<h1 id="opgave-l31---damstenen-deel-2"><a class="header" href="#opgave-l31---damstenen-deel-2">Opgave L3.1 - Damstenen deel 2</a></h1>
+<p><em>Individueel, programmeervaardigheid</em></p>
+<h2 id="l31-a"><a class="header" href="#l31-a">L3.1 A</a></h2>
+<p>Maak in het hoofdprogramma een array met vier damstenen: twee voor de witte speler en twee voor de zwarte speler. Initialiseer deze array en vul de array met vier nieuwe damsteenobjecten.</p>
+<h2 id="l31-b"><a class="header" href="#l31-b">L3.1 B</a></h2>
+<p>Pas de code in de draw-lus zo aan dat alle damstenen uit de array getekend worden.</p>
+<p><em>Tags: array met objecten</em></p>
+<h1 id="opgave-l32---persoonsverandering"><a class="header" href="#opgave-l32---persoonsverandering">Opgave L3.2 - Persoonsverandering</a></h1>
+<p><em>Klassikaal, begrip</em></p>
+<h2 id="l32-a"><a class="header" href="#l32-a">L3.2 A</a></h2>
+<p>Gegeven onderstaande code:</p>
+<pre><code class="language-java">01 class Persoon {
+02    String naam;
+03
+04    Persoon(String naam) {
+05       this.naam = naam;
+06    }
+07 }
+08
+09 void setup() {
+10    Persoon p1 = new Persoon(&quot;han&quot;);
+11    Persoon p2 = new Persoon(&quot;aim&quot;);
+12
+13    p1.naam = p2.naam;
+14    p2.naam = &quot;kareltje&quot;;
+15
+16    println(p1.naam);
+17 }
+</code></pre>
+<p>Teken het geheugenmodel op het moment dat <code>println(p1.naam)</code> op regel 16 wordt uitgevoerd en verklaar de uitvoer in de console (je hoeft het stack frame van <code>println</code> niet te tekenen).</p>
+<h2 id="l32-b"><a class="header" href="#l32-b">L3.2 B</a></h2>
+<p>Het programma wordt een beetje aangepast (zie regel 13) :</p>
+<pre><code class="language-java">01 class Persoon {
+02    String naam;
+03    
+04    Persoon(String naam) {
+05       this.naam = naam;
+06    }
+07 }
+08
+09 void setup() {
+10    Persoon p1 = new Persoon(&quot;han&quot;);
+11    Persoon p2 = new Persoon(&quot;aim&quot;);
+12 
+13    p1 = p2;
+14    p2.naam = &quot;kareltje&quot;;
+15    
+16    println(p1.naam);
+17 }
+</code></pre>
+<p>Teken het geheugenmodel op het moment dat <code>println(p1.naam)</code> op regel 16 wordt uitgevoerd (zonder stack frame van <code>println</code>) en verklaar het verschil van de uitvoer in de console met onderdeel A.</p>
+<p><em>Tags: geheugenmodel, primitieve types, referentietypes</em></p>
+<h1 id="reflectieopgaven"><a class="header" href="#reflectieopgaven">Reflectieopgaven</a></h1>
+<h1 id="opgave-l33---testen"><a class="header" href="#opgave-l33---testen">Opgave L3.3 - Testen</a></h1>
+<p>Bij verschillende opgaven is er gevraagd om een test te schrijven voor een functie. Op welke plek, of plekken schrijf je in een processingprogramma die test?
+Geef een schets van de code die je maakt, als je een test moet schrijven. Wanneer is de test van goede kwaliteit ?</p>
+<h1 id="opgave-l34---foutmeldingen"><a class="header" href="#opgave-l34---foutmeldingen">Opgave L3.4 - Foutmeldingen</a></h1>
+<p>Er zijn een aantal belangrijke foutmeldingen besproken. Welke foutmeldingen zijn dit? Waardoor wordt elke foutmelding veroorzaakt? Geef per foutmelding de oplossing.</p>
+<h1 id="opgave-l35---programmeerstijl"><a class="header" href="#opgave-l35---programmeerstijl">Opgave L3.5 - Programmeerstijl</a></h1>
+<p>Het hanteren van een goede programmeerstijl is een paar keer teruggekomen. Zoek de opgaven op waarin programmeerstijl aan de orde is geweest. Geef een paar vuistregels voor een goede programmeerstijl.</p>
+<h1 id="opgave-l36---begrippen-verbinden"><a class="header" href="#opgave-l36---begrippen-verbinden">Opgave L3.6 - Begrippen verbinden</a></h1>
+<p>Hieronder staan verschillende groepen met begrippen. Maak een zin waarin je elk begrip verbind door de constructie: &quot;bevat/kan bevatten&quot;, &quot;is/kan zijn&quot;, &quot;wordt weergegeven door/kan weergegeven worden door&quot;, &quot;zorgt voor/kan zorgen voor&quot;. Je mag de begrippen meervoud maken als dit de zin ten goede komt.</p>
+<p>Bijvoorbeeld:
+Rechthoek, Stack frame, Geheugenmodel</p>
+<p>Levert
+Het geheugenmodel kan stack frames bevatten die elk worden weergegeven door een rechthoek.</p>
+<ul>
+<li>Runtime administratie, geheugenmodel, variabelen.</li>
+<li>Stack frame, geheugenmodel, functieaanroep.</li>
+<li>Primitieve variabele, referentievariabele, object, array, integer</li>
+<li>Geheugenadres, geheugenmodel, pijl.</li>
+<li>Lokale variabele, parameter</li>
+<li>Globale variabele declaratie, lokale variabele declaratie, functiedefinitie</li>
+<li>Functiedefinitie, functieaanroep.</li>
+</ul>
+<h1 id="opgave-l37---opgaven-en-tags"><a class="header" href="#opgave-l37---opgaven-en-tags">Opgave L3.7 - Opgaven en tags</a></h1>
+<h2 id="l37-a"><a class="header" href="#l37-a">L3.7 A</a></h2>
+<p>Bekijk nogmaals elke opgave en bekijk welke opgaven je hebt gemaakt, welke opgaven je denkt te beheersen en van welke opgave je onderdelen nog niet begrijpt.</p>
+<h2 id="l37-b"><a class="header" href="#l37-b">L3.7 B</a></h2>
+<p>Bij elke opgave staan tags genoemd. Benoem de rol van elke tag in de opgave, of vraag dit na. Ga ook na of er een tag bij de opgave mist.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="les 03 voorbereiding.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="les 04 voorbereiding.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="les 03 voorbereiding.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="les 04 voorbereiding.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
