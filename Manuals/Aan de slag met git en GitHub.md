@@ -103,7 +103,7 @@ Open een cmd window in deze folder. Die doe je door in de adres balk `cmd` te ty
 
 Er verschijnt nu een command-window:
 
-![image4](images\image4.png)
+![image4](images/image4.png)
 
 Om te controleren of je git correct hebt geïnstalleerd kun je hier typen:
 
@@ -113,7 +113,7 @@ git --version
 
 Als er nu een regel verschijnt met de versie van git, dan is git goed geïnstalleerd
 
-![image5](images\image5.png)
+![image5](images/image5.png)
 
 ## Stap 3: Clone tutorial
 
@@ -123,11 +123,11 @@ git clone https://github.com/han-yaeger/yaeger-tutorial.git demoGame
 
 Als het goed is verschijnt de volgende output:
 
-![image6](images\image6.png)
+![image6](images/image6.png)
 
 Binnen de directory is een nieuwe project directory (hier 'demoGame') aangemaakt en hier is de code van de game-engine neergezet:
 
-![image7](images\image7.png)
+![image7](images/image7.png)
 
 Je hebt nu succesvol, **lokaal**, een git-repository aangemaakt. Dit betekent dat van elke file in deze directory de versies worden bijgehouden. Nou ja, niet van alle. In de file .**gitignore** zie je welke bestanden niet worden meegenomen in het versiebeheer (bij naam genoemd, maar meestal met alleen extensie). Deze lijst kun je zelf naar believen aanvullen.
 
@@ -147,7 +147,7 @@ Aangezien alle moderne IDE\'s een Maven project kunnen importeren , maakt het ni
 
 3.  IntelliJ zal merken dat je een pom.xml bestand opent en zal vragen of het nodig is om het hele project te openen:
 
-> ![image8](images\image8.png)
+> ![image8](images/image8.png)
 
 Selecteer **Open as Project**
 
@@ -157,11 +157,11 @@ Selecteer **Open as Project**
 
 2.  In het **import window**, selecteer  *maven*, selecteer  *Existing Maven Projects*, en klik *Next:*
 
-> ![image9](images\image9.png)
+> ![image9](images/image9.png)
 
 3.  Klik *Browse* en selecteer de project directory. Merk op dat deze directory een pom.xml file bevat:
 
-> ![image10](images\image10.png)
+> ![image10](images/image10.png)
 >
 > Selecteer de pom.xml file en klik *Finish*
 
@@ -169,7 +169,7 @@ Selecteer **Open as Project**
 
 Wanneer je het project hebt geïmporteerd zul je zoiets als het onderstaande scherm te zien krijgen:
 
-![image11](images\media\image11.png)
+![image11](images/media\image11.png)
 
 Er is van alles meegekomen met de Import, maar daar hoef je niet naar om te kijken. Voor jou is vooralsnog de eerste folder van belang (src/main/java).
 
@@ -185,7 +185,7 @@ Git is zoals gezegd een versie-beheer tool. Om ook daadwerkelijk gebruik te make
 
 Rechtsklik hiervoor op de java file, en kies voor Team \> Commit...
 
-![image12](images\media\image12.png)
+![image12](images/media\image12.png)
 
 Er wordt onder in je scherm een tabblad geopend genaamd **Git Staging.**
 
@@ -195,7 +195,7 @@ Vul in het venster 'Commit Message' een duidelijke omschrijving van je commit in
 
 (Je ziet hier ook de button 'Commit and Push', deze gaan we gebruiken wanneer we ook een remote repository hebben (in de cloud) )
 
-![image13](images\media\image13.png)
+![image13](images/media\image13.png)
 
 Je gaat natuurlijk niet voor elke kleine wijziging een commit doen. Meestal zal dat een groep wijzigingen zijn die allemaal iets met elkaar te maken hebben (b.v. te maken hebben met 1 feature binnen je game). De message die je meegeeft is belangrijk dat deze een duidelijk omschrijving geeft wat de commit inhoud. Zo kun je makkelijker vaststellen naar welke situatie (=commit) je je code zou willen terugzetten, mocht het bij de laatste commit toch nog iets niet goed blijken te zijn.
 
@@ -203,7 +203,7 @@ Je gaat natuurlijk niet voor elke kleine wijziging een commit doen. Meestal zal 
 
 Wanneer je het project hebt geïmporteerd zul je zoiets als het onderstaande scherm te zien krijgen:
 
-![image14](images\image14.png)
+![image14](images/image14.png)
 
 Er is van alles meegekomen met de Import, maar daar hoef je niet naar om te kijken. Voor jou is vooralsnog de eerste folder van belang (src/main/java).
 
@@ -217,13 +217,13 @@ Git is zoals gezegd een versie-beheer tool. Om ook daadwerkelijk gebruik te make
 
 Rechtsklik hiervoor op de java file, en kies voor Git \> Commit...
 
-![image15](images\image15.png)
+![image15](images/image15.png)
 
 Wanneer Commit.. wordt geselecteerd, kom je in de Commit dialoog window. Hier kun je selecteren wat je in deze Commit mee wilt nemen.
 
 Vul in het tekst vak Commit Message, een duidelijk beschrijving in van de commit.
 
-![image16](images\image16.png)
+![image16](images/image16.png)
 
 # Starten met samenwerken aan de game m.b.v. git en GitHub
 
@@ -243,7 +243,7 @@ Met git remote -v kun je zien aan welke remote repositories onze lokale reposito
 
 Je ziet dat die nog gekoppeld is aan de repository van de Game-engine. Dat is niet wat we willen, we willen natuurlijk een remote repository van onze eigen game. Laten we dat gaan fixen.
 
-![image17](images\image17.png)
+![image17](images/image17.png)
 
 ## Stap 1: Maak een GitHub account aan
 
@@ -255,15 +255,15 @@ Maak beide een account op GitHub <https://github.com/>, mocht je die nog niet he
 
 Klik hiervoor op het + teken in de rechterbovenhoek, en kies voor 'New repository'
 
-![image18](images\image18.png)
+![image18](images/image18.png)
 
 Het volgende scherm verschijnt. Vul de naam van je repo in (in mijn geval gitDemo), maak er een **private** repo van en vink het aanmaken van een README uit.
 
-![image19](images\image19.png)
+![image19](images/image19.png)
   
 Na het klikken op 'Create repository' verschijnt het volgend info-scherm. We gaan de suggestie in de rode box gebruiken.
 
-![image20](images\image20.png)
+![image20](images/image20.png)
 
 Ga weer terug naar de command window, of open hem opnieuw in de directory waar je de game-engine files hebt neergezet en waar je je game-files aan wilt gaan toevoegen.
 
@@ -283,7 +283,7 @@ git push -u origin master
 
 Git gaat nu je lokale repo kopiëren naar de door jou net aangemaakte remote repo, dit duurt heel even.
 
-![image21](images\image21.png)
+![image21](images/image21.png)
 
 Als je je remote repo op GitHub vervolgens bekijkt, zul je zien dat hier alle files van jouw game in staan.
 
@@ -309,11 +309,11 @@ Rechtsklik op je projectnaam en kies voor Teams \> Push to Upstream
 
 Je ziet dat bij de projectnaam een pijltje omhoog met daarachter 1 staat, dit betekent dat er een commit klaar staat die gepushed moet worden.
 
-![image22](images\image22.png)
+![image22](images/image22.png)
 
 Je krijgt vervolgens een info scherm, die je kan sluiten.
 
-![image23](images\image23.png)
+![image23](images/image23.png)
 
 **\
 **
@@ -324,13 +324,13 @@ Rechtsklik en kies voor Git \> Push...
 
 Je komt dan in het volgende scherm terecht. Kies hier voor Push.
 
-![image24](images\image24.png)
+![image24](images/image24.png)
 
 ## Check GitHub
 
 Als je vervolgens je remote repo checkt op GitHub zie je dat de nieuwe files daar aan toegevoegd zijn, onder vermelding van de commit message.
 
-![image25](images\image25.png)
+![image25](images/image25.png)
 
 ## 
 
@@ -350,11 +350,11 @@ Het teamlid dat de GitHub repository heeft opgezet moet de ander uitnodigen om e
 
 Ga hiervoor naar GitHub selecteer de repo van je spel en ga naar het laatste tabblad 'Settings'
 
-![image26](images\image26.png)
+![image26](images/image26.png)
 
 Selecteer hier 'Manage access'
 
-![image27](images\image27.png)
+![image27](images/image27.png)
 
 Klik op de knop 'Invite a collaborator'. In het hierop volgende scherm kun je je teamlid opzoeken op GitHub (hij/zij moet dus wel al een account hebben).
 
@@ -364,7 +364,7 @@ Degene krijgt dan een mailtje, waarin bevestigd moet worden.
 
 Wanneer dit gebeurd is, gaat degene naar GitHub en zoekt de repo op.
 
-![image28](images\image28.png)
+![image28](images/image28.png)
 
 Kopieer de URL. En volg in feite weer stap 1 uit hoofdstuk 1.
 
@@ -416,7 +416,7 @@ Ieder teamlid volgt de volgende werkwijze:
 
 In IntelliJ krijg je een melding rechts onder in het scherm:
 
-![image29](images\image29.png)
+![image29](images/image29.png)
 
 Helaas gaat het niet altijd zo soepel, en kun je tegen een merge-conflict aanlopen. Hoe daar mee om te gaan lees je in de volgende paragraaf.
 
@@ -427,10 +427,10 @@ Helaas gaat het niet altijd zo soepel, en kun je tegen een merge-conflict aanlop
 Ieder teamlid gaat afzonderlijk aan een stuk functionaliteit werken. De wijzigingen die logischerwijs bij dit stuk functionaliteit horen worden samen in 1 commit gestopt. Nu kan het voorkomen dat je teamlid een file al eerder heeft aangepast en al naar de remote master repo heeft gepushed. Vooral in een kleine code-base als het OOPD beroepsprodukt kan dit vaak voorkomen. Als jij nu klaar bent en je wijziging wilt pushen met naar de remote master repository, zul je merken dat de push niet uitgevoerd wordt. De volgende melding verschijnt:
 
 In Eclipse:
-![image30](images\image30.png)
+![image30](images/image30.png)
 
 In IntelliJ:
-![image31](images\image31.png)
+![image31](images/image31.png)
 
 Dit is een zogeheten merge-conflict. Jouw wijzigingen dreigen de wijzigingen van je teamlid te overschrijven. Dit wordt voorkomen door git en je moet dit gaan oplossen. Geavanceerde IDE's zoals IntelliJ en Eclipse helpen je hierbij en maken dit proces makkelijker.
 
@@ -466,7 +466,7 @@ En je wilt dit committen en pushen ovv "X coördinaat aangepast van 100 naar 200
 
 De push zal in dit geval niet doorgaan, omdat dit de voorgaande wijziging weer zou overschrijven. Er volgt een zogeheten merge-conflict
 
-![image30](images\image30.png)
+![image30](images/image30.png)
 
 Om dit op te lossen: rechtsklik project en kies Team \> Pull
 
@@ -478,17 +478,17 @@ Er wordt automatisch de source file getoond met daarin aangegeven tussen \<\<\<\
 
 Aan jullie de taak om te bepalen wat het uiteindelijk moet worden
 
-![image32](images\image32.png)
+![image32](images/image32.png)
 
 Aan jullie de taak om te bepalen wat het uiteindelijk moet worden.
 
 Je kunt in dit scherm gewoon editen en waarschijnlijk moet het eindresultaat zoiets worden:
 
-![image33](images\image33.png)
+![image33](images/image33.png)
 
 In het staging tabblad, de Unstaged changes weer toevoegen aan de Staged changes en vervolgens op Continue klikken
 
-![image34](images\image34.png)
+![image34](images/image34.png)
 
 Jouw lokale master branch bevat nu de 'waarheid' en deze moet gepushed worden naar de remote master branch: Rechtsklik project en kies Team \> Push to Upstream.
 
@@ -506,7 +506,7 @@ In het scherm waarin vermeld wordt dat de Push ge-reject is, kun je voor optie M
 
 Hierna verschijnt het volgende window.
 
-![mage35](images\image35.png)
+![mage35](images/image35.png)
 
 Als je zeker van je zaak bent kun je voor Accept Yours of Accept Theirs kiezen (hierdoor wordt de andere zijn wijziging verwijdert danwel de jouwe).
 
@@ -514,7 +514,7 @@ Het advies is om altijd voor Merge.. te kiezen. Hier heb je volledige controle e
 
 Je komt dan in het volgende scherm:
 
-![image36](images\image36.png)
+![image36](images/image36.png)
 
 Links zie je jouw changes, rechts de code zoals de op de remote repository staat, in het midden komt het resultaat van de merge. Je zult nu samen moeten bepalen wat de juiste versie moet worden. In dit geval lijkt het me logisch dat beide attributen in de klasse opgenomen moeten worden. Klik hiervoor op gehighlighte regels ( op X\>\> en \<\<X). Je zult zien dat in het midden dan een combi van beide files komt te staan. Klik vervolgend op Apply.
 
@@ -593,4 +593,4 @@ Voor meer info over werken met git in Eclipse en het oplossen van merge-conflict
   [Yaeger tutorial]: https://han-yaeger.github.io/yaeger-tutorial/import.html#importing-the-maven-project-into-your-favourite-ide
   [de Yaeger Tutorial]: https://han-yaeger.github.io/yaeger-tutorial/setup.html
   
-    [31]: images\media\image31.png {width="4.0159722222222225in" height="2.2291666666666665in"}
+    [31]: images/image31.png {width="4.0159722222222225in" height="2.2291666666666665in"}
