@@ -169,7 +169,7 @@ Selecteer **Open as Project**
 
 Wanneer je het project hebt geïmporteerd zul je zoiets als het onderstaande scherm te zien krijgen:
 
-![image11](images/media\image11.png)
+![image11](images/image11.png)
 
 Er is van alles meegekomen met de Import, maar daar hoef je niet naar om te kijken. Voor jou is vooralsnog de eerste folder van belang (src/main/java).
 
@@ -185,7 +185,7 @@ Git is zoals gezegd een versie-beheer tool. Om ook daadwerkelijk gebruik te make
 
 Rechtsklik hiervoor op de java file, en kies voor Team \> Commit...
 
-![image12](images/media\image12.png)
+![image12](images/image12.png)
 
 Er wordt onder in je scherm een tabblad geopend genaamd **Git Staging.**
 
@@ -195,7 +195,7 @@ Vul in het venster 'Commit Message' een duidelijke omschrijving van je commit in
 
 (Je ziet hier ook de button 'Commit and Push', deze gaan we gebruiken wanneer we ook een remote repository hebben (in de cloud) )
 
-![image13](images/media\image13.png)
+![image13](images/image13.png)
 
 Je gaat natuurlijk niet voor elke kleine wijziging een commit doen. Meestal zal dat een groep wijzigingen zijn die allemaal iets met elkaar te maken hebben (b.v. te maken hebben met 1 feature binnen je game). De message die je meegeeft is belangrijk dat deze een duidelijk omschrijving geeft wat de commit inhoud. Zo kun je makkelijker vaststellen naar welke situatie (=commit) je je code zou willen terugzetten, mocht het bij de laatste commit toch nog iets niet goed blijken te zijn.
 
