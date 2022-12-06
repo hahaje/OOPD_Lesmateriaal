@@ -14,7 +14,7 @@ De uitslag van een lottotrekking wordt bijvoorbeeld als volgt gepresenteerd:
 De lottoapplicatie gaat uit vier klassen bestaan: `Lottomachine`, `Glazenbol`, `Scorebord` en `Lottobal`. Een vijfde klasse `TestLottoApp` bevat de `main` methode en wordt gebruikt om de machine te testen.
 Hieronder is een sequentiediagram te zien waarin de communicatie te zien is tussen de klassen gedurende een trekking. Let op: de methode `verzamelAlleBallen` is o.a. verantwoordelijk voor het aanmaken van de ballen .
 
-![lottomachineSD](../images/media/LottomachineSD.png)
+![lottomachineSD](images/LottomachineSD.png)
 
 Het poppetje links in het diagram representeert de klasse `TestLottoApp` (ook wel de Actor genoemd).
 

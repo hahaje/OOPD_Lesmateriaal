@@ -32,7 +32,7 @@ Een dambord heeft één methode: `tekenDamstenen()` die alle damstenen die in de
 
 Je kunt onderstaand klassendiagram gebruiken.
 
-![damstenenCD](../images/media/damstenenCD.png)
+![damstenenCD](images/damstenenCD.png)
 
 ## V5.1 B
 
@@ -43,7 +43,7 @@ Test de klasse `Dambord` met bijbehorende methode `tekenDamstenen` in het hoofdp
 
 Gegeven onderstaande klassendiagram.
 
-![studentopschool](../images/media/studentopschool.png)
+![studentopschool](images/studentopschool.png)
 
 Met bijbehorende code:
 

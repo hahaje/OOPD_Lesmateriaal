@@ -68,7 +68,7 @@ Beschouw de volgende eenvoudige versie van het spel Chuck-a-luck: Per ronde zet 
 
 De hele applicatie bestaat uit vier klassen: Dobbelsteen, Dobbelbeker en ChuckALuckSpel en MainApp. Zie onderstaande klassendiagram (meeste methoden en instantievariabelen zijn weggelaten).
 
-![chuckaluckCD](../images/media/chuckaluck.png)
+![chuckaluckCD](images/chuckaluck.png)
 
 #### MainApp
 

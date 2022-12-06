@@ -253,4 +253,4 @@ NB: De Nederlandse kieswet staat lijstverbindingen toe, waarbij twee of meer par
 
 Schrijf een programma dat de zetelverdeling berekent uitgaande van de aantallen stemmen per partij. Maak daarbij een ArrayList van 'PartijUitslagen', waarop je de procedure voor de zetelverdeling bij schrijft. Je hierbij gebruik maken van de startcode die op OnderwijsOnline staat: "Verkiezingsuitslagen.zip". De startcode bevat de uitslagen van vijf verkiezingen (periode 1998-2010).
 
-![verkiezing](../images/media/verkiezingsuitslag.png)
+![verkiezing](images/verkiezingsuitslag.png)
