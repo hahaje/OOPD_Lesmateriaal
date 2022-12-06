@@ -38,7 +38,7 @@ Voor meer info over werken met git in Eclipse en het oplossen van merge-conflict
   [Learn Git In 15 Minutes - YouTube]: https://www.youtube.com/watch?v=USjZcfj8yxE
   [Git & GitHub Crash Course For Beginners - YouTube]: https://www.youtube.com/watch?v=SWYqp7iY_Tc
   [Git Tutorial for Beginners - Git & GitHub Fundamentals In Depth - YouTube]: https://www.youtube.com/watch?v=DVRQoVRzMIY
-  [Yaeger tutorial]: https://han-yaeger.github.io/yaeger-tutorial/import.html#importing-the-maven-project-into-your-favourite-ide
+  
   [de Yaeger Tutorial]: https://han-yaeger.github.io/yaeger-tutorial/setup.html
   
     [31]: images/image31.png {width="4.0159722222222225in" height="2.2291666666666665in"}

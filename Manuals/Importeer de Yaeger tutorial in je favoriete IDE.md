@@ -32,3 +32,4 @@ Selecteer **Open as Project**
 >
 > Selecteer de pom.xml file en klik *Finish*
 
+[Yaeger tutorial]: https://han-yaeger.github.io/yaeger-tutorial/import.html#importing-the-maven-project-into-your-favourite-ide
