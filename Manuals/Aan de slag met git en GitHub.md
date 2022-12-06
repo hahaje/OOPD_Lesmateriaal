@@ -1,76 +1,26 @@
-# Inhoudsopgave {#inhoudsopgave .TOC-Heading}
+# Aan de slag met Git en GitHub
 
-[2. Aan de slag met git en GitHub 2]
+Het uitgangspunt van deze tutorial is dat je `Git` succesvol hebt geïnstalleerd.
 
-[3. Lokale git repository maken en de Game-engine files hierin plaatsen 3]
-
-[Stap 1: Bepaal waar je je lokale repository/project wilt hebben staan 3]
-
-[Stap 2: Controle of git goed is geïnstalleerd 4]
-
-[Stap 3: Clone tutorial 4]
-
-[4. Importeer het project in je favoriete IDE 6]
-
-[Importeren van project in IntelliJ 6]
-
-[Importeren van project in Eclipse 7]
-
-[5. Werken met git in Eclipse 9]
-
-[6. Werken met git in IntelliJ 12]
-
-[7. Starten met samenwerken aan de game m.b.v. git en GitHub 15]
-
-[Stap 1: Maak een GitHub account aan 15]
-
-[Stap 2: Maak een nieuwe repository aan op GitHub 16]
-
-[Stap 3: Credentials opgeven 18]
-
-[Remote repository updaten met de lokale wijzigingen 18]
-
-[Check GitHub 20]
-
-[Lokale repository updaten met wijzigingen op de remote repository 20]
-
-[8. Samenwerken aan de game, een simpele workflow 21]
-
-[Beginnen met samenwerken 21]
-
-[Werkwijze 23]
-
-[Merge-conflicten oplossen 24]
-
-[Merge conflicten oplossen in Eclipse 24]
-
-[Merge conflicten oplossen in IntelliJ 26]
-
-[9. Samenwerken als een pro: gebruik van meerdere branches 29]
-
-[10. Bronnen 30]
-
-# Aan de slag met git en GitHub
-
-Uitgangspunt: Je hebt git succesvol geïnstalleerd
-
-Je kunt git downloaden via: <https://git-scm.com/downloads>.
+Je kunt Git downloaden via: <https://git-scm.com/downloads>.
 
 De installatie instructies vindt je hier: [Git - Installing Git (git-scm.com)]
 
-**Terminologie**
+|**Terminologie**|
+------------------
+|Git | Versiebeheer software |
+------------------------------
+|GitHub | Cloud storage die geïntegreerd is met Git.
+----------------------------------------------------
+|Repository | De plek waar jouw bestanden staan we maken hierbij onderschei tussen de locale repository op je eigen computer en de remote reposity op GitHub|
+------
 
-git: versiebeheer software
-
-GitHub: cloud storage die geïntegreerd is met git.
-
-Repository: De plek waar jouw bestanden staan
-
-Er is ontzettend veel materiaal te vinden op internet over werken met git en GitHub. Mocht je meer informatie willen dan is google-en een goede eerste stap.
+Er is ontzettend veel materiaal te vinden op internet over werken met Git en GitHub. Mocht je meer informatie willen dan is google-en een goede eerste stap.
 
 Enkele voorbeelden:
 
-[Coding Train: Git and GitHub for Poets] Een serie video tutorials van Daniel Shiffman, die je wellicht nog wel kent van de Processing filmpjes bij SPB.
+[Coding Train: Git and GitHub for Poets] 
+Een serie video tutorials van Daniel Shiffman, die je wellicht nog wel kent van de Processing filmpjes bij SPB.
 
 Verder zijn de volgende tutorials aan te bevelen:
 
@@ -80,15 +30,15 @@ Verder zijn de volgende tutorials aan te bevelen:
 
 [Git Tutorial for Beginners - Git & GitHub Fundamentals In Depth - YouTube]
 
-In dit document worden git en GitHub uitgelegd in de context van de game die jullie gaan maken met behulp van Yaeger.
+In dit document worden Git en GitHub uitgelegd in de context van de game die jullie gaan maken met behulp van Yaeger.
 
-# Lokale git repository maken en de Game-engine files hierin plaatsen
+# Lokale Git repository maken en de Game-engine files hierin plaatsen
 
-Een git repository opzetten kan op verschillende manieren. Hieronder is een van die manieren opgeschreven. Dit is dus een manier en niet dé manier.
+Een Git repository opzetten kan op verschillende manieren. Hieronder is een van die manieren opgeschreven. Dit is dus een manier en niet dé manier.
 
 Doe deze stappen eerst voor 1 teamlid, het andere teamlid kan vervolgens op een eenvoudigere manier zijn/haar repository opzetten.
 
-De stappen gaan voornamelijk via het zogeheten command window (cmd). Je kunt met git werken door alleen maar via de command window git-commando's te geven. Maak je geen zorgen, in deze workshop gebruiken we de command window alleen om git op te zetten. Git is namelijk ook standaard al geïntegreerd met Eclipse en IntelliJ en je kan tijdens het bouwen van je game van je IDE gebruik maken om git commando's uit te voeren.
+De stappen gaan voornamelijk via het zogeheten command-window (cmd). Je kunt met Git werken door enkel via de command window Git-commando's te geven. Maak je geen zorgen, in deze workshop gebruiken we de command window alleen om Git op te zetten. Git is namelijk ook standaard al geïntegreerd met Eclipse en IntelliJ en je kan tijdens het bouwen van je game van je IDE gebruik maken om git commando's uit te voeren.
 
 
 ## Stap 1: Bepaal waar je je lokale repository/project wilt hebben staan
@@ -97,9 +47,9 @@ Open de folder waar je je project wilt opslaan
 
 ![image3](images/image3.png)
 
-## Stap 2: Controle of git goed is geïnstalleerd
+## Stap 2: Controle of Git goed is geïnstalleerd
 
-Open een cmd window in deze folder. Die doe je door in de adres balk `cmd` te typen (rode markering)
+Open een command-window in deze folder. Die doe je door in de adres balk `cmd` te typen (rode markering)
 
 Er verschijnt nu een command-window:
 
