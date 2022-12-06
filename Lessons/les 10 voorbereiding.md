@@ -30,7 +30,7 @@ Teken een overervingshiërarchie (boek pagina 384) waarin de onderstaande klasse
 
 Hint:
 
-![kiwis](images/media/kiwis.png)
+![kiwis](../images/media/kiwis.png)
 
 ## V10.1 B
 

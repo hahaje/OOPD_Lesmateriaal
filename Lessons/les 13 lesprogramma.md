@@ -6,7 +6,7 @@ Les 13 - Lesprogramma (L13)
 
 We starten met een programma dat lijkt op het programma uit de screencast, maar met een paar wijzigingen. Je vindt de startcode op OnderwijsOnline en het klassendiagram staat hieronder.
 
-![meerderedoelwitten](images/media/meerderedoelwitten.png)
+![meerderedoelwitten](../images/media/meerderedoelwitten.png)
 
 Een knop kan nu meerdere `IDoelwitten` bevatten. Zodra er op de knop geklikt wordt, moeten alle gekoppelde doelwitten de methode `schakel` aanroepen.
 
@@ -33,11 +33,11 @@ Gekoppelde radioknoppen zijn knoppen, waarvan er maar één tegelijkertijd aan k
 
 Zie onderstaande screenshots voor een voorbeeld. Je ziet hierop steeds drie radioknoppen.
 
-![radioknoppen](images/media/radioknoppen.png)
+![radioknoppen](../images/media/radioknoppen.png)
 
 In deze opdracht ga je de klasse `Radioknop` implementeren door deze te laten erven van `Switch` en de interface `IDoelwit` (zie vorige opgave) te laten implementeren. Zie onderstaand klassendiagram.
 
-![radioknoppenCD](images/media/radioknoppenCD.png)
+![radioknoppenCD](../images/media/radioknoppenCD.png)
 
 ## L13.2 A
 
