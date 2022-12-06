@@ -17,7 +17,7 @@ Gegeven onderstaand programma
 
 Hieronder is het geheugenmodel te zien van het programma in de for-lus net na de aanroep van println op regel 5.
 
-![geheugenmodel](images/media/geheugenmodelforlus.png)
+![geheugenmodel](./images/media/geheugenmodelforlus.png)
  
 ## L2.1 A
 
