@@ -12,11 +12,11 @@ Les 2 - Voorbereiding (V2)
 
 Hieronder staan een aantal acties die in het geheugenmodel plaats kunnen vinden. Zet ze in de juiste volgorde.
 
-a)  Lokale variabelen een waarde geven.
+a.   Lokale variabelen een waarde geven.
 
-b)  Stack frame verwijderen.
+a.   Stack frame verwijderen.
 
-c)  Returnwaarde kopiëren.
+a.   Returnwaarde kopiëren.
 
 d)  Stack frame plaatsen.
 
