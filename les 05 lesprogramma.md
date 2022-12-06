@@ -243,7 +243,9 @@ Zorg ervoor dat de juiste verhouding tussen de breedte en de hoogte in de klasse
 Welke implementatie geniet volgens jou de voorkeur:
 
 A.  Verhouding tussen de hoogte en de breedte in `Klok`
+
 B.  Verhouding tussen de hoogte en breedte in `Teller`
+
 C.  Maakt niet uit
 
 Probeer zo goed mogelijk te formuleren waarom je voor jouw keuze hebt gekozen. Als je geen reden kunt verzinnen, mag je ook aangeven dat het om een vaag gevoel, of intuïtie gaat. Probeer dan dit zo helder mogelijk te beschrijven.

@@ -116,6 +116,7 @@ Bij sommige opgaven is er gevraagd om een test te schrijven voor een klasse. Gee
 # Opgave L6.4 - Functie \<\> Methode
 
 Wat is de overeenkomst tussen een functie en een methode?
+
 Wat is het verschil tussen een functie en een methode?
 
 
