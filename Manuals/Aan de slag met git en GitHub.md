@@ -95,7 +95,7 @@ De stappen gaan voornamelijk via het zogeheten command window (cmd). Je kunt met
 
 Open de folder waar je je project wilt opslaan
 
-![image3](images\image3.png)
+![image3](images/image3.png)
 
 ## Stap 2: Controle of git goed is geïnstalleerd
 
