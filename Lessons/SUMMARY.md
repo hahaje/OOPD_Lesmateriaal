@@ -1,3 +1,3 @@
-# Summary
+# Inhoudsopgave
 
-- [Chapter 1](./chapter_1.md)
+- [Les 01 Lesprogramma](les 01 lesprogramma.md)
