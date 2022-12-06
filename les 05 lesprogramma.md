@@ -41,7 +41,7 @@ In onderstaand programma is er een klasse gemaakt voor een geheel getal. De klas
 30 }
 ```
 
-Draai het programma in processing en bekijk de uitvoer: regels 20 en 21 leveren niet hetzelfde getal.
+Draai het programma in Processing en bekijk de uitvoer: regels 20 en 21 leveren niet hetzelfde getal.
 
 ## L5.1 A
 
@@ -219,8 +219,8 @@ class Teller{
    }
 
    String geefTijdNotatie(){
-      if (waarde \< 10){
-         return \"0\" + str(waarde);
+      if (waarde < 10){
+         return "0" + str(waarde);
       } else {
          return str(waarde);
       }
@@ -236,16 +236,14 @@ De verhouding tussen de breedte en de hoogte wordt nu afgevangen in `Klok` door 
 
 `hoogte = breedte * 0.4f;`
 
-Zorg ervoor dat de juiste verhouding tussen de breedte en de hoogte in de klasse Teller wordt afgevangen in plaats van in de klasse `Klok`. Test de wijzigingen goed.
+Zorg ervoor dat de juiste verhouding tussen de breedte en de hoogte in de klasse `Teller` wordt afgevangen in plaats van in de klasse `Klok`. Test de wijzigingen goed.
 
 ## L5.4 B
 
 Welke implementatie geniet volgens jou de voorkeur:
 
 A.  Verhouding tussen de hoogte en de breedte in `Klok`
-
-B.  Verhouding tussen de hoogte en breedte in Teller
-
+B.  Verhouding tussen de hoogte en breedte in `Teller`
 C.  Maakt niet uit
 
 Probeer zo goed mogelijk te formuleren waarom je voor jouw keuze hebt gekozen. Als je geen reden kunt verzinnen, mag je ook aangeven dat het om een vaag gevoel, of intuïtie gaat. Probeer dan dit zo helder mogelijk te beschrijven.

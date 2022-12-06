@@ -16,15 +16,15 @@ Les 08 *Reader UML class en sequence diagrams*
 ### Hoofdstuk 4
 
 4.1 tot en met 4.9 pagina 134 tot en met 154
-
 4.11 pagina 161 tot en met 164
 
 
 # Opgave V8.1 - isBenedenScherm
 
-In de screencast 5.1 over arraylist op tijdstip 8:25 -- 8:40 wordt de methode isBenedenScherm aan het hoofdprogramma toegevoegd.
-Kan deze methode niet beter in de klasse Deeltje staan? Leg uit waarom wel of niet. Moet je de methode dan nog aanpassen?
-Gebruik in de uitleg het begrip: [verbergen van informatie]{.ul}/ [information hiding]{.ul} (Boek 6.12, pagina 239 tot en met 242).
+In de screencast 5.1 over arraylist op tijdstip 8:25 -- 8:40 wordt de methode `isBenedenScherm` aan het hoofdprogramma toegevoegd.
+Kan deze methode niet beter in de klasse `Deeltje` staan? 
+Leg uit waarom wel of niet. Moet je de methode dan nog aanpassen?
+Gebruik in de uitleg het begrip: <u>verbergen van informatie]</u> / <u>information hiding]</u> (Boek 6.12, pagina 239 tot en met 242).
 
 De code uit de screencast vindt je op Onderwijs Online.
 

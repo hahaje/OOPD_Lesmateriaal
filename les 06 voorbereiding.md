@@ -7,7 +7,7 @@ Les 6 - Voorbereiding (V6)
 
 <https://www.youtube.com/watch?v=Y2w9OvLTg8A&list=PLpd9jJvk1PjnMmrtlNeOzviLhJolx0_oi&index=1>
 
-NB: Onderwerp 4.2 -- 4.4 komen in les 7 aan bod
+NB: Onderwerp 4.2 t/m 4.4 komen in les 7 aan bod
 
 
 # Opgave V6.1 - Installeren van IDE, Eclipse of IntelliJ
@@ -35,7 +35,7 @@ De IntelliJ IDEA is er in 2 versies. De gratis Community en de betaalde Ultimate
 
 # Opgave V6.2 - Student in Java
 
-Zorg ervoor dat de Student en de School uit de opgave V5.2 - StudentOpSchool (uit les 5 -- Voorbereiding) in Java draait.
+Zorg ervoor dat de `Student` en de `School` uit de opgave V5.2 - StudentOpSchool (uit les 5 -- Voorbereiding) in Java draait.
 
 # Pen en papier meenemen
 

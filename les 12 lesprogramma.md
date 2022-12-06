@@ -82,7 +82,7 @@ In de klasse `Student` is een veld opgenomen met de naam SLBer en het type `Doce
 
 1.  `String`
 
-> of
+of
 
 2.  `Persoon`?
 
@@ -108,7 +108,7 @@ public class PersonenLijst {
       lijst = new ArrayList<>();
    }
 
-   public ArrayList\<Student\> getSLBStudenten(Docent SLBer) {
+   public ArrayList<Student> getSLBStudenten(Docent SLBer) {
       //TO DO
    }
 

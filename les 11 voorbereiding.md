@@ -51,7 +51,8 @@ Hieronder is een gedeelte van een hoofdprogramma gegeven (`KnopApp`) en een dee
 02     //code weggelaten
 03     private Licht l;
 04     private Knop k;
-0506      public void setup() {
+05
+06     public void setup() {
 07        l = new Licht(this);
 08        k = new LichtKnop(this, l, 20, 20, 50, 50);
 09        //code weggelaten

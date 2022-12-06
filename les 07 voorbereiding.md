@@ -47,7 +47,7 @@ Zet alle klassen uit de `KlokApp` in Processing om naar Javacode in IntelliJ / E
 
 ## V7.1 B
 
-Zorg ervoor dat de klasse Klok geen instantievariabelen x, y, hoogte en breedte meer heeft. Maak in klok wel getters en setters voor x, y, hoogte en breedte en zorg ervoor dat in die getters en setters de urenTeller en minutenTeller gebruikt worden om de juiste waarde terug te geven en aan te passen.
+Zorg ervoor dat de klasse `Klok` geen instantievariabelen `x, y, hoogte` en `breedte` meer heeft. Maak in `Klok` wel getters en setters voor `x, y, hoogte` en `breedte` en zorg ervoor dat in die getters en setters de `urenTeller` en `minutenTeller` gebruikt worden om de juiste waarde terug te geven en aan te passen.
 
 
 # Opdracht V7.2 - Klassediagram Chuck-a-luck
@@ -68,7 +68,7 @@ Beschouw de volgende eenvoudige versie van het spel Chuck-a-luck: Per ronde zet 
 
 De hele applicatie bestaat uit vier klassen: Dobbelsteen, Dobbelbeker en ChuckALuckSpel en MainApp. Zie onderstaande klassendiagram (meeste methoden en instantievariabelen zijn weggelaten).
 
-<img src="/images/media/chuckaluck.png" width=50% height=50%>
+![chuckaluckCD](images/media/chuckaluck.png)
 
 #### MainApp
 

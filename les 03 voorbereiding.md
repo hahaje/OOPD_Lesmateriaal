@@ -44,11 +44,11 @@ Maak een constructor voor de klasse `Product` (uit lesprogramma 2) waarmee de `n
 
 ## V3.2 A
 
-Maak de klasse waarmee je damstenen kunt maken. Een damsteen is rond en moet een x- en y-punt hebben, een kleur en een diameter. Maak een constructor waarmee de gebruiker van de klasse alle eigenschappen van een damsteen kan meegeven.
+Maak de klasse waarmee je damstenen kunt maken en tekenen. Een damsteen is rond en moet een x- en y-punt hebben, een kleur en een diameter. Maak een constructor waarmee de gebruiker van de klasse alle eigenschappen van een damsteen kan meegeven.
 
 ## V3.2 B
 
-Test de klasse `Damsteen` door in het hoofdprogramma twee damstenen te maken: een witte en een zwarte en deze op het tekenvenster van Processing te tekenen.
+Test de klasse `Damsteen` door in het hoofdprogramma twee damstenen te maken: een witte en een zwarte, en deze op het tekenvenster van Processing te tekenen.
 
 
 # Opgave V3.3 - Student null

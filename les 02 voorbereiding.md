@@ -13,15 +13,10 @@ Les 2 - Voorbereiding (V2)
 Hieronder staan een aantal acties die in het geheugenmodel plaats kunnen vinden. Zet ze in de juiste volgorde.
 
 a)  Lokale variabelen een waarde geven.
-
 b)  Stack frame verwijderen.
-
 c)  Returnwaarde kopiëren.
-
 d)  Stack frame plaatsen.
-
 e)  Globale variabelen plaatsen.
-
 f)  Lokale variabelen plaatsen.
 
 *Tags: geheugenmodel, stack, stack frame, return*
@@ -44,7 +39,7 @@ Geef aan waar deze pijl precies moet beginnen en waar deze pijl precies naar wij
 
 ## V2.3 A
 
-In onderstaande code is de functie doeKeerTwee gegeven:
+In onderstaande code is de functie `doeKeerTwee` gegeven:
 
 ```java
 01 int testGetal = 5; 
@@ -84,6 +79,6 @@ Teken het geheugenmodel op het moment dat `doeKeerTwee` op regel 4 is uitgevoerd
 
 ## V2.3 C
 
-Vergelijk de geheugenmodellen uit Onderdeel A en Onderdeel B met elkaar en verklaar aan de hand van deze modellen waardoor de globale variabele `testGetal` niet van waarde is veranderd, maar de `testGetallen` wel.
+Vergelijk de geheugenmodellen uit Onderdeel A en Onderdeel B met elkaar en verklaar aan de hand van deze modellen waardoor de globale variabele `testGetal` niet van waarde is veranderd, maar de variabele `testGetallen` wel.
 
 *Tags: stap voor stap doorlopen, geheugenmodel, referentievariabele, primitieve variabele, lokale variabele, globale variabele.*

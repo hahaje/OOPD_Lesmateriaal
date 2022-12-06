@@ -5,7 +5,7 @@ Les 4 - Lesprogramma (L4)
 
 *Individueel, begrip*
 
-Hieronder is de draw lus van de slider gegeven. Verander de functies uit de oude code naar methoden van de klasse slider en test de nieuwe klasse slider in de draw-lus van Processing.
+Hieronder is de draw lus van de slider gegeven. Verander de functies uit de oude code naar methoden van de klasse `Slider` en test de nieuwe klasse slider in de draw-lus van Processing.
 
 ```java
 void draw() {
@@ -72,7 +72,7 @@ De klasse `KaartjesAutomaat` simuleert een kaartautomaat bij een bioscoop die ka
 
 ## L4.3 A - Maak het klassenontwerp
 
-Teken het klassendiagram met de naam van de klasse, de klassevariabelen (a.k.a. eigenschappen of attributen) (inclusief type) en de methoden (inclusief parameters met type en returntype). Maak voor deze opgave gebruik van je kennis over Business Class Diagram uit FAT. Het klassendiagram zelf komt uitgebreider aan bod in de screencasts van les 5 en in les 8 worden uitgebreidere klassendiagrammen behandelr.
+Teken het klassendiagram met de naam van de klasse, de klassevariabelen (a.k.a. eigenschappen of attributen) (inclusief type) en de methoden (inclusief parameters met type en returntype). Maak voor deze opgave gebruik van je kennis over Business Class Diagram uit FAT. Het klassendiagram zelf komt uitgebreider aan bod in de screencasts van les 5 en in les 8 worden uitgebreidere klassendiagrammen behandeld.
 
 ## L4.3 B - Implementeren en testen
 
@@ -82,7 +82,7 @@ Maak deze klasse en zorg ervoor dat de code zo goed mogelijk omgaat met foutieve
 
 #### Testteam
 
-Maak het hoofdprogramma waarin je één instantie van deze klasse test. Test door alle uitvoer met println naar het uitvoerscherm te schrijven. Verzin invoer en bedenk welke uitvoer je wilt hebben. Probeer zo grondig mogelijk te testen door naast geldige invoer ook foutieve invoer aan de ticketmachine te voeren.
+Maak het hoofdprogramma waarin je één instantie van deze klasse test. Test door alle uitvoer met `println` naar het uitvoerscherm te schrijven. Verzin invoer en bedenk welke uitvoer je wilt hebben. Probeer zo grondig mogelijk te testen door naast geldige invoer ook foutieve invoer aan de ticketmachine te voeren.
 
 
 # Opgave L4.4 - Wat is een String (& hoe verhoudt zich dat tot objecten?)
@@ -132,11 +132,11 @@ void setup() {
 
 ## L4.4 A
 
-Is een String op basis van de uitvoer een referentietype, of een primitief type?
+Is een `String` op basis van de uitvoer een referentietype, of een primitief type?
 
 ## L4.4 B
 
-Teken het geheugenmodel op het moment dat de methode setup() uitgevoerd is, maar nog niet van de Heap verwijderd is.
+Teken het geheugenmodel op het moment dat de methode `setup()` uitgevoerd is, maar nog niet van de Heap verwijderd is.
 
 ## L4.4 C
 
@@ -171,7 +171,7 @@ Hieronder is alvast de definitie:
 
 ```java
 Klok(float x, float y, float breedte, int uren, int minuten) {
-
+   //TODO
 }
 ```
 

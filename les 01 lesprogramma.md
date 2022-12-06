@@ -8,8 +8,10 @@ Les 1 - Lesprogramma (L1)
 ## L1.1 A
 
 Wanneer je twee gehele getallen door elkaar deelt, krijg je niet automatisch een kommagetal, terwijl dat soms wel wenselijk is.
-Bijvoorbeeld: ``println(5 / 2)``; levert 2, terwijl het handig kan zijn dat er 2.5 uit zou komen.
-Maak een functie, ``floatDelen``, die twee gehele getallen heeft als invoer. De functie deelt het eerste getal door het tweede getal en retourneert het resultaat als een kommagetal.
+Bijvoorbeeld: 
+`println(5 / 2);` 
+levert 2 op, terwijl het handig kan zijn dat er 2.5 uit zou komen.
+Maak een functie, `floatDelen`, die twee gehele getallen heeft als invoer. De functie deelt het eerste getal door het tweede getal en retourneert het resultaat als een kommagetal.
 
 ## L1.1 B
 
@@ -81,7 +83,7 @@ void setup() {
 Hoewel er drie verschillende fouten worden veroorzaakt, kun je deze drie fouten in twee [soorten]{.ul} onderverdelen. Welke twee fouten horen bij dezelfde soort en welke fout is van de andere soort. Waarom kies je voor deze indeling?
 Verzin een passende naam voor beide soorten foutmelding
 
-*Tags: runtime, , delen door 0, syntax, compile-time, datatypes, statische types*
+*Tags: runtime, delen door 0, syntax, compile-time, datatypes, statische types*
 
 
 # Opgave L1.4 - Zoeken in een array

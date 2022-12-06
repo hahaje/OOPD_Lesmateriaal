@@ -3,7 +3,7 @@ Les 7 - Lesprogramma (L7)
 
 # Opgave L7.1 - Chuck-a-luck implementeren
 
-Implementeer Chuck-a-luck op basis van de omschrijving uit de voorbereiding, het klassendiagram dat nabesproken is en alle klassen met stubs van de methoden.
+Implementeer Chuck-a-luck op basis van de omschrijving uit de voorbereiding, het klassendiagram dat nabesproken is en alle klassen met stubs van de methoden (stubs zijn methodes zonder body).
 
 ## Werkwijze
 

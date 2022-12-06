@@ -5,17 +5,18 @@ Les 8 - Lesprogramma (L8)
 
 ## Functionele specificatie
 
-Een lottomachine (<https://www.youtube.com/watch?v=ElQgz0gJwEo>) bestaat uit een glazen bol die in de beginsituatie 45 balletjes, genummerd van 1 tot en met 45, bevat. Verder heeft de lottomachine een \'scorebord\' dat uit zeven glazen bestaat. Het besturingsgedeelte van de lottomachine brengt de bol in beweging en zorgt er voor dat er een balletje uit de glazen bol wordt geschept dat in het eerste glas valt. Vervolgens wordt er een tweede balletje uit de bol geschept dat in het tweede glas verdwijnt. Zo worden nog vier balletjes gekozen die in het derde tot en met zesde glas vallen. Het zevende en laatste balletje dat wordt getrokken komt in het zevende glas terecht; het nummer op dit balletje wordt het bonusgetal genoemd. Bij het presenteren van de uitslag worden de eerste zes balletjes die getrokken zijn van klein naar groot getoond.
-De uitslag van een lottotrekking wordt bijvoorbeeld als volgt gepresenteerd: 4 11 15 27 31 40 bonusgetal: 18
+Een lottomachine (<https://www.youtube.com/watch?v=ElQgz0gJwEo>) bestaat uit een glazen bol die in de beginsituatie 45 balletjes bevat, genummerd van 1 tot en met 45. Verder heeft de lottomachine een \'scorebord\' dat uit zeven glazen bestaat. Het besturingsgedeelte van de lottomachine brengt de bol in beweging en zorgt er voor dat er een balletje uit de glazen bol wordt geschept dat in het eerste glas valt. Vervolgens wordt er een tweede balletje uit de bol geschept dat in het tweede glas verdwijnt. Zo worden nog vier balletjes gekozen die in het derde tot en met zesde glas vallen. Het zevende en laatste balletje dat wordt getrokken komt in het zevende glas terecht; het nummer op dit balletje wordt het bonusgetal genoemd. Bij het presenteren van de uitslag worden de eerste zes balletjes die getrokken zijn van klein naar groot getoond.
+De uitslag van een lottotrekking wordt bijvoorbeeld als volgt gepresenteerd: 
+`4 11 15 27 31 40 bonusgetal: 18`
 
 ## Technische specificatie
 
 De lottoapplicatie gaat uit vier klassen bestaan: `Lottomachine`, `Glazenbol`, `Scorebord` en `Lottobal`. Een vijfde klasse `TestLottoApp` bevat de `main` methode en wordt gebruikt om de machine te testen.
 Hieronder is een sequentiediagram te zien waarin de communicatie te zien is tussen de klassen gedurende een trekking. Let op: de methode `verzamelAlleBallen` is o.a. verantwoordelijk voor het aanmaken van de ballen .
 
-<img src="/images/media/LottomachineSD.png" width=50% height=50%>
+![lottomachineSD](images/media/LottomachineSD.png)
 
-Het poppetje links in het diagram representeert de klasse TestLottoApp (ook wel de Actor genoemd).
+Het poppetje links in het diagram representeert de klasse `TestLottoApp` (ook wel de Actor genoemd).
 
 De implementatie van `Lottobal` staat hieronder weergegeven:
 
@@ -77,5 +78,5 @@ In het sorteeralgoritme uit opgave D staat dit statement.
 
 ```if (ballen.get(j).getNummer() > ballen.get(j+1).getNummer())```
 
-Deze regel zondigt tegen de (zeer zuivere) regel dat een klasse niets mag weten van de interne werking van een andere klasse. In dit geval weet `Scorebord` dat de klasse `Bal` ints gebruikt om het nummer bij te houden.
-Pas de code in dit if-statement zo aan, dat er weer wordt voldaan aan de bovenstaande regel. Dit doe je door aan een bal te /'vragen/' of hij groter is dan de meegegeven bal. Oftewel: maak een methode binnen `Bal` waar je een instantie van een `Bal` mmekunt geven en die retourneert of de bal een hoger nummer heeft of niet.
+Deze regel zondigt tegen de (zeer zuivere) regel dat een klasse niets mag weten van de interne werking van een andere klasse. In dit geval weet `Scorebord` dat de klasse `Bal` integers gebruikt om het nummer bij te houden.
+Pas de code in dit if-statement zo aan, dat er weer wordt voldaan aan de bovenstaande regel. Dit doe je door aan een bal te 'vragen' of hij groter is dan de meegegeven bal. Oftewel: maak een methode binnen `Bal` waar je een instantie van een `Bal` mee kunt geven en die retourneert of de bal een hoger nummer heeft of niet.

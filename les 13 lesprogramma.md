@@ -27,7 +27,7 @@ Laat de klasse `Switch` de interface `IDoelwit` implementeren. Wat kun je nu rea
 
 # Opdracht L13.2 - Radioknoppen
 
-*In deze oefening gaan we de implementatie van een interface combineren met een associatie van dezelfde interface binnen één klasse. We bouwen verder op de code van de vorige opdracht.*
+In deze oefening gaan we de implementatie van een interface combineren met een associatie van dezelfde interface binnen één klasse. We bouwen verder op de code van de vorige opdracht.*
 
 Gekoppelde radioknoppen zijn knoppen, waarvan er maar één tegelijkertijd aan kan staan.
 
@@ -43,8 +43,8 @@ In deze opdracht ga je de klasse `Radioknop` implementeren door deze te laten er
 
 Leg uit welke mogelijkheden `Radioknop` krijgt door:
 
--   te erven van Switch
--   de interface IDoelwit te implementeren
+-   te erven van `Switch`
+-   de interface `IDoelwit` te implementeren
 
 ## L13.2 B
 

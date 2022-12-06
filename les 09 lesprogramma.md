@@ -122,7 +122,7 @@ Geef een reden waarom het een goede keuze is om de methode `krijgtPositiefStudie
 
 ## L9.2 C
 
-Het zou kunnen zijn dat de keuze om bovenstaande methode static te maken, niet in elke situatie een bruikbare keuze is. Verzin een situatie waarin de methode krijgtPositiefStudieadvies beter niet static kan zijn.
+Het zou kunnen zijn dat de keuze om bovenstaande methode static te maken, niet in elke situatie een bruikbare keuze is. Verzin een situatie waarin de methode `krijgtPositiefStudieadvies` beter niet static kan zijn.
 
 
 # Opgave L9.3 - Studieadvies II

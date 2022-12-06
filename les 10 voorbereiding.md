@@ -9,11 +9,11 @@ Les 10 - Voorbereiding (V10)
 
 ## Boek
 
-Hoofdstuk 10
+### Hoofdstuk 10
 
 10.1 t/m 10.6 pagina 370 t/m 391
 
-Hoofdstuk 11
+### Hoofdstuk 11
 
 11.5 pagina 413 en 414
 
@@ -26,7 +26,7 @@ Hoofdstuk 11
 
 Teken een overervingshiërarchie (boek pagina 384) waarin de onderstaande klassen elk één keer voorkomen (Kiwi staat er dus drie keer in).
 
-Dier, Vogel, Levensvorm, Vrucht, Mens, Kiwi, Kiwi, Kiwi.
+`Dier`, `Vogel`, `Levensvorm`, `Vrucht`, `Mens`, `Kiwi`, `Kiwi`, `Kiwi`
 
 Hint:
 

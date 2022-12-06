@@ -48,12 +48,12 @@ String plakCodeVoorId(String id, String code) {
 }
 ```
 
-In de variabele idLijst staan drie strings die gebruikt worden voor identificaties. In het hoofdprogramma wordt de code \"NL\" voor het eerste id geplakt uit idLijst. Hiervoor wordt de functie plakCodeVoorId gebruikt.
+In de variabele `idLijst` staan drie strings die gebruikt worden voor identificaties. In het hoofdprogramma wordt de code \"NL\" voor het eerste id geplakt uit `idLijst`. Hiervoor wordt de functie `plakCodeVoorId` gebruikt.
 
 ## L2.2 A
 
 Ga ervan uit dat er een methode bestaat `plakCodeVoorIdLijst(String[] lijst, String code)` die de string in de variabele code voor elk element uit lijst plakt.
-Schrijf een test in setup waarmee je deze methode zou kunnen testen. Zie opgave " Zoeken in Array" uit lesprogramma 1 voor de manier om een test op te zetten.
+Schrijf een test in `setup` waarmee je deze methode zou kunnen testen. Zie opgave \"Zoeken in Array\" uit lesprogramma 1 voor de manier om een test op te zetten.
 
 ## L2.2 B
 
@@ -136,8 +136,8 @@ void setup() {
 }
 ```
 
-Vergelijk naam en prijs met de eigenschap ``length`` van array.
-Het type van product1 moeten we zelf maken en dat doen we in een class (klasse). In deze klasse specificeren we ook alle eigenschappen en geven we een methode waarmee je een variabele van het gedefinieerde type kunt maken. Vergelijk dit met bijvoorbeeld String\[\] lijst **= new String\[\]()**. Ook voor onze zelf gedefinieerde type willen we iets dergelijks doen met het keyword **new.**
+Vergelijk naam en prijs met de eigenschap `length` van array.
+Het type van product1 moeten we zelf maken en dat doen we in een class (klasse). In deze klasse specificeren we ook alle eigenschappen en geven we een methode waarmee je een variabele van het gedefinieerde type kunt maken. Vergelijk dit met bijvoorbeeld `String[] lijst = new String[]()`. Ook voor onze zelf gedefinieerde type willen we iets dergelijks doen met het keyword **new.**
 
 ## L2.4 C
 
@@ -203,7 +203,7 @@ Hoe ziet de laatste versie van het geheugenmodel eruit als de declaratie van de 
 
 ## L2.6 C
 
-Verklaar aan de hand van het geheugenmodel dat de methode setup niet bij de variabelen `lengte`, `getal` en `lijst`, maar de methode `maakLijstMetEenGetal` wel bij de variabele `deLijst` en `hetGetal`.
+Verklaar aan de hand van het geheugenmodel dat de methode setup niet bij de variabelen `lengte`, `getal` en `lijst` kan komen, maar de methode `maakLijstMetEenGetal` wel bij de variabele `deLijst` en `hetGetal`.
 Gebruik in de uitleg zoveel mogelijk de technische begrippen die tot nu toe zijn behandeld.
 
 ## L2.6 D

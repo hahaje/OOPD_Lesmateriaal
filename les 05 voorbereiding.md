@@ -36,7 +36,7 @@ Je kunt onderstaand klassendiagram gebruiken.
 
 ## V5.1 B
 
-Test de klasse `Dambord' met`bijbehorende methode `tekenDamstenen` in het hoofdprogramma.
+Test de klasse `Dambord` met bijbehorende methode `tekenDamstenen` in het hoofdprogramma.
 
 
 # Opgave V5.2 - Student op School
@@ -107,6 +107,6 @@ Lost onderstaande verbetering op regel 4 en 5 aan het hoofdprogramma de fout op?
 04    Student s1 = new Student("hanneke", 1, deSchool.naam);
 05    Student s2 = new Student("femke", 2, deSchool.naam);
 06 }   
-```                                                      |
+```
 
 *Tags: referentievariabele, verschillende <> dezelfde instantie*

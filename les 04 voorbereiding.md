@@ -7,10 +7,6 @@ Les 4 - Voorbereiding (V4)
 
 ## <https://www.youtube.com/watch?v=g8xMStW4lT0&list=PLpd9jJvk1PjmB_VNDp61-94kAbUHqcziD&index=3>
 
-## 
-
-## 
-
 ## Boek
 
 ### Hoofdstuk2
@@ -32,7 +28,7 @@ Test de methode `tekenDamsteen` voor alle damstenen uit de array in de draw-lus 
 
 ## V4.1 C
 
-Voeg de de klasse-variabele `isGeselecteerd` die de waarde `true`, of `false` kan hebben toe aan de klasse `Damsteen`. Zorg ervoor dat de methode `tekenDamsteen` een dikke rand (met de processing-methoden `stroke`, `strokeWeight` en `noStroke`) om de damsteen heen tekent als `isGeselecteerd` de waarde `true` heeft. Je hoeft niet zelf te detecteren of de damsteen geselecteerd is: het wordt gewoon een waarde die van buiten aan- of uitgezet kan worden.
+Voeg de de klasse-variabele `isGeselecteerd` die de waarde `true`, of `false` kan hebben toe aan de klasse `Damsteen`. Zorg ervoor dat de methode `tekenDamsteen` een dikke rand (met de processing-methoden `stroke`, `strokeWeight` en `noStroke`) om de damsteen heen tekent als `isGeselecteerd` de waarde `true` heeft. Je hoeft niet zelf te detecteren of de damsteen geselecteerd is: het wordt gewoon een waarde die van buiten de klasse aan- of uitgezet kan worden.
 
 ## V4.1 D
 

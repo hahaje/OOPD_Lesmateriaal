@@ -22,4 +22,6 @@ Om een idee te krijgen welke features er allemaal in Yaeger zitten kun je de Sho
 Hou hier rekening mee wanneer je een eigen game gaat bedenken. Heb je features nodig die niet in de showcase voorkomen, check dan even bij je docent of het mogelijk is. Yaeger is nog steeds in ontwikkeling en er worden voortdurend nieuwe features toegevoegd.
 
 Als de packages in Eclipse er zo uitzien als in de afbeelding hieronder (alle packages onder elkaar) en je dat onprettig vindt, kun je ervoor kiezen om de manier waarop packages worden weergegeven aan te passen. Doe dat door op het kleine naar beneden wijzende pijltje boven de mappenstructuur te klikken, te kiezen voor "Package representation" en vervolgens "Hierarchical".
+
+
 ![packageseclipse](images/media/packageseclipse.png)
