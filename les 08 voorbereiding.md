@@ -1,6 +1,5 @@
----
-title: Les 8 -- Voorbereiding (V8)
----
+Les 8 - Voorbereiding (V8)
+===
 
 # Theorie
 

@@ -1,6 +1,5 @@
----
-title: Les 8 -- Lesprogramma (L8)
----
+Les 8 - Lesprogramma (L8)
+===
 
 # Opgave L8.1 - Lottomachine
 
@@ -14,7 +13,7 @@ De uitslag van een lottotrekking wordt bijvoorbeeld als volgt gepresenteerd: 4 1
 De lottoapplicatie gaat uit vier klassen bestaan: `Lottomachine`, `Glazenbol`, `Scorebord` en `Lottobal`. Een vijfde klasse `TestLottoApp` bevat de `main` methode en wordt gebruikt om de machine te testen.
 Hieronder is een sequentiediagram te zien waarin de communicatie te zien is tussen de klassen gedurende een trekking. Let op: de methode `verzamelAlleBallen` is o.a. verantwoordelijk voor het aanmaken van de ballen .
 
-![][1]
+<img src="/images/media/LottomachineSD.png" width=50% height=50%>
 
 Het poppetje links in het diagram representeert de klasse TestLottoApp (ook wel de Actor genoemd).
 
@@ -80,5 +79,3 @@ In het sorteeralgoritme uit opgave D staat dit statement.
 
 Deze regel zondigt tegen de (zeer zuivere) regel dat een klasse niets mag weten van de interne werking van een andere klasse. In dit geval weet `Scorebord` dat de klasse `Bal` ints gebruikt om het nummer bij te houden.
 Pas de code in dit if-statement zo aan, dat er weer wordt voldaan aan de bovenstaande regel. Dit doe je door aan een bal te /'vragen/' of hij groter is dan de meegegeven bal. Oftewel: maak een methode binnen `Bal` waar je een instantie van een `Bal` mmekunt geven en die retourneert of de bal een hoger nummer heeft of niet.
-
-  [1]: images\media\image1.png {width="5.86167760279965in" height="4.14629593175853in"}

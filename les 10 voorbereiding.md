@@ -1,6 +1,5 @@
----
-title: Les 10 -- Voorbereiding (V10)
----
+Les 10 - Voorbereiding (V10)
+===
 
 # Theorie
 
@@ -20,6 +19,7 @@ Hoofdstuk 11
 
 11.9 pagina 420 t/m 422
 
+
 # Opgave V10.1 - Overervingshiërarchie
 
 ## V10.1 A
@@ -30,71 +30,66 @@ Dier, Vogel, Levensvorm, Vrucht, Mens, Kiwi, Kiwi, Kiwi.
 
 Hint:
 
-![][1]![][2]
-
-## 
-
-## ![][3]
-
-## 
-
-## 
-
-## 
-
-## 
+![kiwis](images/media/kiwis.png)
 
 ## V10.1 B
 
-Implementeer de klassen Vogel, Vrucht, Kiwi en Kiwi en los het naamconflict dat je krijgt op zonder de klassennamen van beide Kiwi's aan te passen (zie eventueel boek 6.5 pagina 224 en 225).
+Implementeer de klassen `Vogel`, `Vrucht`, `Kiwi`  en `Kiwi` en los het naamconflict dat je krijgt op zonder de klassennamen van beide Kiwi's aan te passen (zie eventueel boek 6.5 pagina 224 en 225).
+
 
 # Opgave V10.2 - Superconstructor 
 
-In deze opgave maken we alleen gebruik van de klasse Dier en de klasse Kiwi.
+In deze opgave maken we alleen gebruik van de klasse `Dier` en de klasse `Kiwi`.
 
 ## V10.2 A
 
-Bekijk de constructor van de klasse Kiwi. Wanneer deze constructor wordt uitgevoerd, wordt eerst de constructor van dier uitgevoerd. Geef de header (boek pagina 36) van deze constructor.
+Bekijk de constructor van de klasse `Kiwi`. Wanneer deze constructor wordt uitgevoerd, wordt eerst de constructor van dier uitgevoerd. Geef de header (boek pagina 36) van deze constructor.
 
-public class Dier {\
-protected String naam;\
+```java
+public class Dier {
+   protected String naam;
 }
 
-public class Kiwi extends Dier {\
-private int loopSnelheid;\
-\
-public Kiwi(String naam, int loopSnelheid) {\
-this.loopSnelheid = loopSnelheid;\
-}\
+public class Kiwi extends Dier {
+   private int loopSnelheid;
+
+   public Kiwi(String naam, int loopSnelheid) {
+      this.loopSnelheid = loopSnelheid;
+   }
 }
+```
 
 ## V10.2 B
 
-De constructor die je bij opgave A hebt genoemd is niet expliciet gedefinieerd in de klasse Dier. Beschrijf zo exact mogelijk de spelregel die maakt dat deze constructor toch wordt uitgevoerd.
+De constructor die je bij opgave A hebt genoemd is niet expliciet gedefinieerd in de klasse `Dier`. Beschrijf zo exact mogelijk de spelregel die maakt dat deze constructor toch wordt uitgevoerd.
 
 ## V10.2 C
 
-Er wordt een constructor toegevoegd aan de klasse Dier:
+Er wordt een constructor toegevoegd aan de klasse `Dier`:
 
-public class Dier {\
-protected String naam;\
-\
-public Dier(String naam) {\
-this.naam = naam;\
-}\
+```java
+public class Dier {
+   protected String naam;
+
+   public Dier(String naam) {
+      this.naam = naam;
+   }
 }
+```
 
-Nu geeft de constructor van Kiwi (regel 4) de foutmelding
+Nu geeft de constructor van `Kiwi` (regel 4) de foutmelding
 
 *Implicit super constructor Dier() is undefined. Must explicitly invoke another constructor*
 
-public class Kiwi extends Dier {\
-private int loopSnelheid;\
-\
-public Kiwi(String naam, int loopSnelheid) {\
-this.loopSnelheid = loopSnelheid;\
-}\
+```java
+public class Kiwi extends Dier {
+   private int loopSnelheid;
+
+   public Kiwi(String naam, int loopSnelheid) {
+      this.loopSnelheid = loopSnelheid;
+   }
 }
+```
 
 Leg uit wat deze foutmelding betekent.
 
@@ -102,14 +97,16 @@ Leg uit wat deze foutmelding betekent.
 
 De foutmelding uit opgave C kun je oplossen door onderstaande code:
 
-public class Kiwi extends Dier {\
-private int loopSnelheid;\
-\
-public Kiwi(String naam, int loopSnelheid) {\
-super(naam);\
-this.loopSnelheid = loopSnelheid;\
-}\
+```java
+public class Kiwi extends Dier {
+   private int loopSnelheid;
+
+   public Kiwi(String naam, int loopSnelheid) {
+      super(naam);
+      this.loopSnelheid = loopSnelheid;
+   }
 }
+```
 
 Onderzoek of je regels 5 en 6 ook mag omdraaien, zonder een foutmelding te krijgen.
 
@@ -120,7 +117,3 @@ Wikimedia commons, 2015a. \"Apteryx owenii 1\" by G.D. Rowley - Rowley, G.D., Or
 Wikimedia commons, 2015b. \"Kiwi (Actinidia chinensis) 1 Luc Viatour\" by Luc Viatour - own work www.lucnix.beNikon case D300 optical Sigma 150mm F2,8 macro. Licensed under GFDL via Wikimedia Commons - https://commons.wikimedia.org/wiki/File:Kiwi\_(Actinidia_chinensis)\_1_Luc_Viatour.jpg\#/media/File:Kiwi\_(Actinidia_chinensis)\_1_Luc_Viatour.jpg
 
 Wikimedia commons, 2015c, \"John Key National Party2\" by Guo\'s - cropped from 2008-3-19 Mr John Key and Me.. Licensed under CC BY-SA 2.0 via Wikimedia Commons - https://commons.wikimedia.org/wiki/File:John_Key_National_Party2.jpg\#/media/File:John_Key_National_Party2.jpg
-
-  [1]: images\media\image1.tiff {width="1.09375in" height="1.6in"}
-  [2]: images\media\image2.tiff {width="0.9729166666666667in" height="1.1416666666666666in"}
-  [3]: images\media\image3.tiff {width="1.2229166666666667in" height="0.8347222222222223in"}

@@ -1,6 +1,5 @@
----
-title: Les 5 -- Lesprogramma (L5)
----
+Les 5 - Lesprogramma (L5)
+===
 
 
 # Opgave L5.1 - Geheelgetal

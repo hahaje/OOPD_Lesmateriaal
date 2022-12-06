@@ -1,6 +1,5 @@
----
-title: Les 4 -- Voorbereiding (V4)
----
+Les 4 - Voorbereiding (V4)
+===
 
 # Theorie
 

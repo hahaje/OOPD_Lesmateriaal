@@ -1,6 +1,5 @@
----
-title: Les 2 Voorbereiding (V2)
----
+Les 2 - Voorbereiding (V2)
+===
 
 # Theorie
 

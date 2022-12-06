@@ -1,6 +1,5 @@
----
-title: Les 5 -- Voorbereiding (V5)
----
+Les 5 - Voorbereiding (V5)
+===
 
 # Theorie
 
@@ -33,7 +32,7 @@ Een dambord heeft één methode: `tekenDamstenen()` die alle damstenen die in de
 
 Je kunt onderstaand klassendiagram gebruiken.
 
-![][1]
+![damstenenCD](images/media/damstenenCD.png)
 
 ## V5.1 B
 
@@ -44,7 +43,7 @@ Test de klasse `Dambord' met`bijbehorende methode `tekenDamstenen` in het hoofdp
 
 Gegeven onderstaande klassendiagram.
 
-![][2]
+![studentopschool](images/media/studentopschool.png)
 
 Met bijbehorende code:
 
@@ -111,6 +110,3 @@ Lost onderstaande verbetering op regel 4 en 5 aan het hoofdprogramma de fout op?
 ```                                                      |
 
 *Tags: referentievariabele, verschillende <> dezelfde instantie*
-
-  [1]: images\media\image1.png {width="5.271527777777778in" height="2.897222222222222in"}
-  [2]: images\media\image2.png {width="4.406675415573053in" height="1.06333552055993in"}

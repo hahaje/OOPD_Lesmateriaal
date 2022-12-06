@@ -1,6 +1,6 @@
----
-title: Les 6 lesprogramma
----
+Les 6 - Lesprogramma (L6)
+===
+
 
 Op Onderwijs Online staan enkele extra oefeningen voor het geheugenmodel (Zie: 2.4 Geheugenmodel: reader en extra oefeningen)
 

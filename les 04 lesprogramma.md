@@ -1,6 +1,5 @@
----
-title: Les 4 -- Lesprogramma (L4)
----
+Les 4 - Lesprogramma (L4)
+===
 
 # Opgave L4.1 - Slider deel 2
 

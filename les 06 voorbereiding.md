@@ -1,6 +1,5 @@
----
-title: Les 6 -- Voorbereiding (V6)
----
+Les 6 - Voorbereiding (V6)
+===
 
 # Theorie
 

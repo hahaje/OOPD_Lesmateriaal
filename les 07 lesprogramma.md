@@ -1,6 +1,5 @@
----
-title: Les 7 -- Lesprogramma (L7)
----
+Les 7 - Lesprogramma (L7)
+===
 
 # Opgave L7.1 - Chuck-a-luck implementeren
 

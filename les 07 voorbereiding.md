@@ -1,6 +1,5 @@
----
-title: Les 7 -- Voorbereiding (V7)
----
+Les 7 - Voorbereiding (V7)
+===
 
 # Theorie
 
@@ -69,7 +68,7 @@ Beschouw de volgende eenvoudige versie van het spel Chuck-a-luck: Per ronde zet 
 
 De hele applicatie bestaat uit vier klassen: Dobbelsteen, Dobbelbeker en ChuckALuckSpel en MainApp. Zie onderstaande klassendiagram (meeste methoden en instantievariabelen zijn weggelaten).
 
-![][1]
+<img src="/images/media/chuckaluck.png" width=50% height=50%>
 
 #### MainApp
 
@@ -124,5 +123,3 @@ Probeer geen getters en setters te declareren tenzij je denkt dat je echt niet z
 #### Hint
 
 Je hoeft nog geen code te schrijven, dat doen we in de les.
-
-  [1]: images\media\image1.png {width="7.24375in" height="2.6416666666666666in"}

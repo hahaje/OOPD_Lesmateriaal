@@ -1,6 +1,5 @@
----
-title: Les 3 -- Voorbereiding (V3)
----
+Les 3 - Voorbereiding (V3)
+===
 
 # Theorie
 

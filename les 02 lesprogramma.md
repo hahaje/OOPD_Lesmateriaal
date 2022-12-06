@@ -1,5 +1,5 @@
 Les 2 - Lesprogramma (L2)
-=========================
+===
 
 # Opgave L2.1 - Length
 
@@ -17,8 +17,7 @@ Gegeven onderstaand programma
 
 Hieronder is het geheugenmodel te zien van het programma in de for-lus net na de aanroep van println op regel 5.
 
-<img src="/images/media/image0.png" width=50% height=50%>
-
+![geheugenmodel](images/media/geheugenmodelforlus.png)
  
 ## L2.1 A
 
@@ -26,7 +25,7 @@ Teken de variabele length met bijbehorende waarde op de juiste plek in dit model
 
 ## L2.1 B
 
-Vergelijk de .-operator (in ``lijst.length``) met de \[\]-operator (``lijst[i]``). Wat is de overeenkomst tussen beide operatoren?
+Vergelijk de .-operator (in `lijst.length`) met de \[\]-operator (`lijst[i]`). Wat is de overeenkomst tussen beide operatoren?
 
 *Tags: geheugenmodel, eigenschap, operatoren*
 
@@ -53,12 +52,12 @@ In de variabele idLijst staan drie strings die gebruikt worden voor identificati
 
 ## L2.2 A
 
-Ga ervan uit dat er een methode bestaat ``plakCodeVoorIdLijst(String\[\] lijst, String code)`` die de string in de variabele code voor elk element uit lijst plakt.
+Ga ervan uit dat er een methode bestaat `plakCodeVoorIdLijst(String[] lijst, String code)` die de string in de variabele code voor elk element uit lijst plakt.
 Schrijf een test in setup waarmee je deze methode zou kunnen testen. Zie opgave " Zoeken in Array" uit lesprogramma 1 voor de manier om een test op te zetten.
 
 ## L2.2 B
 
-Implementeer de methode ``plakCodeVoorIdLijst(String\[\] lijst, String code)`` en zorg ervoor dat je de test uit opgave A slaagt.
+Implementeer de methode `plakCodeVoorIdLijst(String[] lijst, String code)` en zorg ervoor dat je de test uit opgave A slaagt.
 
 ## L2.2 C
 
@@ -70,7 +69,7 @@ Vergelijk jouw implementatie met die van anderen. Welke oplossing is het meest s
 
 *Direct klassikaal, of eerst in tweetallen*
 
-Had de methode ``plakCodeVoorIdLijst(String\[\] lijst, String code)`` ook ``plakCodeVoorId(String\[\] lijst, String code)`` kunnen heten zonder een foutmelding te krijgen?
+Had de methode `plakCodeVoorIdLijst(String[] lijst, String code)` ook `plakCodeVoorId(String[] lijst, String code)` kunnen heten zonder een foutmelding te krijgen?
 
 *Tags: referentievariabele, array, overloading, new, return, geheugenmodel*
 
@@ -192,7 +191,7 @@ Teken het geheugenmodel :
 
 ## L2.6 B
 
-Hoe ziet de laatste versie van het geheugenmodel eruit als de declaratie van de variabelen ``deLijst`` en ``hetGetal`` in setup uitgevoerd wordt zoals hieronder te zien is:
+Hoe ziet de laatste versie van het geheugenmodel eruit als de declaratie van de variabelen `deLijst` en `hetGetal` in setup uitgevoerd wordt zoals hieronder te zien is:
 
 ```Java
 01 void setup() { 
@@ -204,10 +203,10 @@ Hoe ziet de laatste versie van het geheugenmodel eruit als de declaratie van de 
 
 ## L2.6 C
 
-Verklaar aan de hand van het geheugenmodel dat de methode setup niet bij de variabelen ``lengte``, ``getal`` en ``lijst``, maar de methode ``maakLijstMetEenGetal`` wel bij de variabele ``deLijst`` en ``hetGetal``.
+Verklaar aan de hand van het geheugenmodel dat de methode setup niet bij de variabelen `lengte`, `getal` en `lijst`, maar de methode `maakLijstMetEenGetal` wel bij de variabele `deLijst` en `hetGetal`.
 Gebruik in de uitleg zoveel mogelijk de technische begrippen die tot nu toe zijn behandeld.
 
 ## L2.6 D
 
-Is het, over het algemeen, verstandig om de methode ``maakLijstMetEenGetal`` gebruik te laten maken van ``deLijst`` en ``hetGetal``.
+Is het, over het algemeen, verstandig om de methode `maakLijstMetEenGetal` gebruik te laten maken van `deLijst` en `hetGetal`.
 Gebruik in de uitleg zoveel mogelijk de technische begrippen die tot nu toe zijn behandeld.

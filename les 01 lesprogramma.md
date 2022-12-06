@@ -1,5 +1,5 @@
-Les 1 Lesprogramma (L1)
-======================
+Les 1 - Lesprogramma (L1)
+===
 
 # Opgave L1.1 - Delen
 
@@ -88,18 +88,18 @@ Verzin een passende naam voor beide soorten foutmelding
 
 *Individueel, programmeervaardigheid*
 
-De functie ``komtGetalVoorIn(int getal, int[] lijst)`` retourneert true als ``getal`` voorkomt in ``lijst``. Als ``getal`` niet voorkomt in ``lijst``, dan wordt er ``false`` geretourneerd.
+De functie `komtGetalVoorIn(int getal, int[] lijst)` retourneert true als `getal` voorkomt in `lijst`. Als `getal` niet voorkomt in `lijst`, dan wordt er `false` geretourneerd.
 
 ## L1.4 A
 
-Maak eerst een programma waarmee je de functie ``komtGetalVoorIn`` kunt testen:
+Maak eerst een programma waarmee je de functie `komtGetalVoorIn` kunt testen:
 1.  Verzin waarden voor de twee parameters van de functie waarvan je de uitkomst van de functieaanroep uit het hoofd kunt bepalen.
-2.  Roep de functie aan in ``setup`` van processing (zonder de functie te definiëren).
+2.  Roep de functie aan in `setup` van processing (zonder de functie te definiëren).
 3.  Schrijf het resultaat van deze functieaanroep naar de console en controleer of je de foutmelding krijgt die aangeeft dat de functie nog niet bestaat.
 
 ## L1.4 B
 
-Implementeer de functie ``komtGetalVoorIn`` en controleer of het testresultaat overeenkomt met wat je verwacht.
+Implementeer de functie `komtGetalVoorIn` en controleer of het testresultaat overeenkomt met wat je verwacht.
 
 ## L1.4 C
 
@@ -139,15 +139,15 @@ int doeFunctie(int[][] a, int b) {
 
 ## L1.5 A
 
-Loop de functie, ``doeFunctie``, regel voor regel door en houd bij welke variabelen er zijn en wat de waarde van elke variabele is (in feite speel je nu zelf de runtime omgeving na). Probeer er op deze manier te achter te komen wat de functie doet.
+Loop de functie, `doeFunctie`, regel voor regel door en houd bij welke variabelen er zijn en wat de waarde van elke variabele is (in feite speel je nu zelf de runtime omgeving na). Probeer er op deze manier te achter te komen wat de functie doet.
 
 ## L1.5 B
 
-Verander in de aanroep van ``doeFunctie`` het tweede argument in 2 (ipv 1). Welk soort foutmelding krijg je nu? Wat betekent de foutmelding?
+Verander in de aanroep van `doeFunctie` het tweede argument in 2 (ipv 1). Welk soort foutmelding krijg je nu? Wat betekent de foutmelding?
 
 ## L1.5 C
 
-Als je de variabele a, b, c of d zou aanroepen in setup, dan gaat dit mis. Andersom (``hetVeld`` aanroepen in ``doeFunctie``) gaat wel goed. Hoe komt dit? Geef in de runtime administratie die je bij opgave A hebt gemaakt aan welke variabelen bij welke functie horen.
+Als je de variabele a, b, c of d zou aanroepen in setup, dan gaat dit mis. Andersom (`hetVeld` aanroepen in `doeFunctie`) gaat wel goed. Hoe komt dit? Geef in de runtime administratie die je bij opgave A hebt gemaakt aan welke variabelen bij welke functie horen.
 
 ## L1.5 D
 
@@ -183,7 +183,7 @@ void doeKeerTwee(int[] getallen) {
 }
 ```
 
-Voer dit programma uit en bekijk de uitvoer. Vergelijk de waarde van het ``testGetal`` met de waarde in ``testGetallen``. Wat is het belangrijkste verschil?
+Voer dit programma uit en bekijk de uitvoer. Vergelijk de waarde van het `testGetal` met de waarde in `testGetallen`. Wat is het belangrijkste verschil?
 
 In de eerstvolgende les besteden we aandacht aan dit verschil.
 
@@ -199,7 +199,7 @@ In de eerstvolgende les besteden we aandacht aan dit verschil.
 
 ## L1.7 A - getallen uit twee arrays bij elkaar optellen
 
-Maak de methode ``telElementenOp`` die twee integer arrays als invoer heeft. De methode telt de getallen van elk element uit beide arrays bij elkaar op en slaat de resultaten op in een nieuwe array. Vervolgens retourneert de methode de nieuwe array.
+Maak de methode `telElementenOp` die twee integer arrays als invoer heeft. De methode telt de getallen van elk element uit beide arrays bij elkaar op en slaat de resultaten op in een nieuwe array. Vervolgens retourneert de methode de nieuwe array.
 
 Test deze methode in de setup-methode van processing.
 
@@ -225,7 +225,7 @@ void setup() {
 
 ## L1.7 B - maximum bepalen van twee arrays
 
-Maak de methode ``maakMaxArray``. Deze methode krijgt twee arrays als invoer, bepaalt de methode per element uit beide arrays het getal met de hoogste waarde en retourneert een nieuwe array met deze getallen.
+Maak de methode `maakMaxArray`. Deze methode krijgt twee arrays als invoer, bepaalt de methode per element uit beide arrays het getal met de hoogste waarde en retourneert een nieuwe array met deze getallen.
 
 Als één van beide arrays langer is dan de ander, dan moet het resultaat aangevuld worden met de elementen uit de langste array.
 

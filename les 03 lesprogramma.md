@@ -1,6 +1,5 @@
----
-title: Les 3 Lesprogramma (L3)
----
+Les 3 - Lesprogramma (L3)
+===
 
 # Opgave L3.1 - Damstenen deel 2
 

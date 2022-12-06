@@ -1,6 +1,6 @@
----
-title: Les 14 -- Lesprogramma (L14)
----
+Les 14 - Lesprogramma (L14)
+===
+
 
 ## Opgave L14.1 - Terugblik
 
@@ -20,6 +20,7 @@ Benoem deze begrippen en geef aan wat ze betekenen en hoe je deze toepast.
 
 Beschrijf of we superklassen opnemen in een geheugenmodel. Waarom wel of waarom niet? Geef een voorbeeld.
 
+
 ## Opgave L14.2 - Starten spellen met een knop of switch
 
 Individueel oefenen
@@ -35,6 +36,7 @@ Gebruik hiervoor de aangepaste doelwitten applicatie uit de vorige les.
 ### Start de lottomachine vanuit de knoppenApp
 
 Wat valt je op als je dit hebt gedaan?
+
 
 ## Extra oefeningen 
 
