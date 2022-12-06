@@ -95,7 +95,7 @@ Het hanteren van een goede programmeerstijl is een paar keer teruggekomen. Zoek 
 
 # Opgave L3.6 - Begrippen verbinden
 
-Hieronder staan verschillende groepen met begrippen. Maak een zin waarin je elk begrip verbind door de constructie: "bevat/kan bevatten", "is/kan zijn", "wordt weergegeven door/kan weergegeven worden door", "zorgt voor/kan zorgen voor. Je mag de begrippen meervoud maken als dit de zin ten goede komt.
+Hieronder staan verschillende groepen met begrippen. Maak een zin waarin je elk begrip verbind door de constructie: "bevat/kan bevatten", "is/kan zijn", "wordt weergegeven door/kan weergegeven worden door", "zorgt voor/kan zorgen voor". Je mag de begrippen meervoud maken als dit de zin ten goede komt.
 
 Bijvoorbeeld:
 Rechthoek, Stack frame, Geheugenmodel
