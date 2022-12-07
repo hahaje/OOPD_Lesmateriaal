@@ -16,7 +16,8 @@ Zoals hierboven al genoemd werd, is het geheugenmodel een weergave van het geheu
 
 We beginnen met een voorbeeld van een geheugenmodel van een programma, waarin bijna alle elementen die in een geheugenmodel kunnen voorkomen zijn getekend (static ontbreekt hier nog, omdat dat pas relatief laat in OOPD wordt geïntroduceerd; verderop in de handleiding vind je daar voorbeelden van).
 
-![image3](images/image3.png )
+![image3](images/image3.png)
+
 *Afbeelding 1*
 
 ## Heap en stack
@@ -46,11 +47,13 @@ Een stack frame bestaat uit de naam van de methode, en de lokale variabelen die 
 De naam van het stack frame is altijd de naam van de methode, ook als het gaat om een methode die wordt aangeroepen op een object. In dat geval zie je namelijk aan de variabele `this` bij welk object de aanroep hoort. Zie Afbeelding 2.
 
 ![image4](images/image4.png)
+
 *Afbeelding 2*
 
 ## Objecten / instanties
 
 ![image5](images/image5.png)
+
 *Afbeelding 3*
 
 Objecten (ook wel "instanties" genoemd) staan altijd op de heap. Bovenaan staat de naam van de klasse waarvan het object een instantie is (zo staat er in Afbeelding 1 bij beide objecten `Student` en in Afbeelding 3 staat `Huis`). Objecten in het geheugenmodel bevatten alle variabelen die bij het object horen (static variabelen horen hier *niet* bij, zie paragraaf 2.8). Als je een object op de heap tekent, kun je dus altijd meteen alle eigenschappen (variabelen die bij het object horen) overnemen en er vakjes bij tekenen. In Afbeelding 3 zie je een klasse `Huis` in code. Wanneer daarvan ergens in de code een object wordt aangemaakt, wordt dat object op de heap getekend en kunnen beide eigenschappen dus meteen in het object getekend worden.
@@ -60,6 +63,7 @@ Objecten (ook wel "instanties" genoemd) staan altijd op de heap. Bovenaan staat 
 Arrays en ArrayLists zijn verzamelingen van variabelen. Om het overzichtelijk te houden, zetten we deze variabelen naast elkaar en staat het volgnummer behorend bij elke variabele eronder en tussen vierkante haakjes (zo dus: \[0\]). De variabelen worden verder net zo getekend als variabelen die een naam hebben (zie paragraaf 2.3). In Afbeelding 4 zie je een paar voorbeelden van arrays en ArrayLists zoals ze in het geheugenmodel zouden kunnen staan.
 
 ![image7](images/image7.png)
+
 *Afbeelding 4*
 
 Arrays hebben een variabele met de naam `length` waarin het aantal elementen in de array staat. ArrayLists hebben een dergelijke variabele niet.
@@ -75,6 +79,7 @@ Wanneer een klasse static variabelen bevat, horen deze niet meer bij een specifi
 Je tekent een static element door de naam van de klasse tussen vishaken te zetten ("\<" en "\>", dit is de notatie die je ook gebruikt bij een ArrayList om aan te geven van welke *klasse* er objecten in te vinden zijn) en de rand te tekenen met een stippellijn. Er wordt *nooit* een pijltje getekend naar een static element. Zie Afbeelding 5, waarin je een object van de klasse `Toetsenist` ziet. Deze klasse heeft ook een static variabele `nToetsenisten` waarin we bijhouden hoeveel toetsenisten er zijn.
 
 ![image9](images/image9.png)
+
 *Afbeedling 5*
 
 ## Overerving en interfaces
