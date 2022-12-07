@@ -150,6 +150,7 @@ Stel nu dat ons wordt gevraagd om het geheugenmodel te tekenen op het moment dat
 3.  Aangezien de globale variabele `boeken` een array van 2 posities is, tekenen we die op de heap (met de variabele length alvast op 2 gezet). De genummerde variabelen blijven voorlopig nog leeg. \[1.B\]
 
 4.  De array wordt toegekend aan de globale variabele `boeken`, dus we trekken een pijl van die globale variabele naar de array.
+
 ![image10](images/image10.png)
 
 5.  De uitvoer van het programma begint bij de methode `setup` (regel 03). We tekenen daarvan dus het stack frame.
@@ -163,11 +164,13 @@ Stel nu dat ons wordt gevraagd om het geheugenmodel te tekenen op het moment dat
 9.  In de constructor van de klasse `Auteur` wordt op regel 43 de meegegeven waarde `naam` gekopieerd naar de objectvariabele `naam`. Deze kunnen we dus invullen.
 
 10. De constructor is nu klaar, dus we kunnen deze van het stack frame verwijderen \[2.A\]. Op regel 04 zien we dat het resultaat van de constructor wordt toegewezen aan de variabele `orwell`, dus we kunnen een pijl trekken van die variabele naar het nieuw aangemaakte object op de heap.
+
  ![image11](images/image11.png)
 
 11. Op regel 05 wordt opnieuw een variabele aangemaakt in het stack frame en wordt een constructor aangeroepen. In dit geval is dat de constructor *Boek*, en deze krijgt een String (*"*1984*"*), een `Auteur` (de inhoud van de variabele `orwell`) en een int (*326)* mee. Deze worden allemaal gekopieerd naar variabelen in het stack frame `Boek`. Zoals je ziet maakt de volgorde van variabelen in een stack frame niet uit, en wordt nu de variabele `this` onderaan de lijst geplaatst (bij `Auteur` deden we dat onderaan). \[2.B\].
 
 12. Er wordt een `Boek`-object aangemaakt op de heap (`this` verwijst daarnaar) \[2.C\]. De inhoud van de variabelen in de constructor worden gekopieerd naar het nieuwe object.
+
 ![image12](images/image12.png)
 
 13. De constructor wordt van het stack frame verwijderd \[3.A\] en de variabele `eightyFour` verwijst nu naar het nieuwe `Boek`-object.
@@ -179,6 +182,7 @@ Stel nu dat ons wordt gevraagd om het geheugenmodel te tekenen op het moment dat
 16. Op regel 11 wordt in het stack frame `setup` een nieuwe variabele aangemaakt met de naam `totaalVellen` waarvan de waarden op 0 wordt gezet \[4.A\].
 
 17. Op regel 12 wordt een variabele *i* aangemaakt die op 0 wordt gezet \[4.A\].
+
 ![image13](images/image13.png)
 
 18. Op regel 14 wordt de methode `getAantalVellen` aangeroepen op `boeken\[0\]`. Als we de verwijzingen volgen, zien we dat *boeken* de globale variabele is die verwijst naar de array, en dat het 0'de element van die array verwijst naar het `Boek`-object met "1984" als titel. Kennelijk wordt daar dus de methode op aangeroepen, en vandaar dat we het stack frame kunnen tekenen en `this` naar het `Boek`-object met "1984" als titel kunnen laten wijzen \[4.B\].
