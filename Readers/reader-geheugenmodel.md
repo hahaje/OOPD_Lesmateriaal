@@ -16,7 +16,7 @@ Zoals hierboven al genoemd werd, is het geheugenmodel een weergave van het geheu
 
 We beginnen met een voorbeeld van een geheugenmodel van een programma, waarin bijna alle elementen die in een geheugenmodel kunnen voorkomen zijn getekend (static ontbreekt hier nog, omdat dat pas relatief laat in OOPD wordt geïntroduceerd; verderop in de handleiding vind je daar voorbeelden van).
 
-![image3](images/image3.jpeg )
+![image3](images/image3.png )
 *Afbeelding 1*
 
 ## Heap en stack
@@ -45,7 +45,7 @@ Een stack frame bestaat uit de naam van de methode, en de lokale variabelen die 
 
 De naam van het stack frame is altijd de naam van de methode, ook als het gaat om een methode die wordt aangeroepen op een object. In dat geval zie je namelijk aan de variabele `this` bij welk object de aanroep hoort. Zie Afbeelding 2.
 
-![image4](images/image4.jpeg)
+![image4](images/image4.png)
 *Afbeelding 2*
 
 ## Objecten / instanties
@@ -59,7 +59,7 @@ Objecten (ook wel "instanties" genoemd) staan altijd op de heap. Bovenaan staat 
 
 Arrays en ArrayLists zijn verzamelingen van variabelen. Om het overzichtelijk te houden, zetten we deze variabelen naast elkaar en staat het volgnummer behorend bij elke variabele eronder en tussen vierkante haakjes (zo dus: \[0\]). De variabelen worden verder net zo getekend als variabelen die een naam hebben (zie paragraaf 2.3). In Afbeelding 4 zie je een paar voorbeelden van arrays en ArrayLists zoals ze in het geheugenmodel zouden kunnen staan.
 
-![image7](images/image7.tiff)
+![image7](images/image7.png)
 *Afbeelding 4*
 
 Arrays hebben een variabele met de naam `length` waarin het aantal elementen in de array staat. ArrayLists hebben een dergelijke variabele niet.
@@ -74,7 +74,7 @@ Wanneer een klasse static variabelen bevat, horen deze niet meer bij een specifi
 
 Je tekent een static element door de naam van de klasse tussen vishaken te zetten ("\<" en "\>", dit is de notatie die je ook gebruikt bij een ArrayList om aan te geven van welke *klasse* er objecten in te vinden zijn) en de rand te tekenen met een stippellijn. Er wordt *nooit* een pijltje getekend naar een static element. Zie Afbeelding 5, waarin je een object van de klasse `Toetsenist` ziet. Deze klasse heeft ook een static variabele `nToetsenisten` waarin we bijhouden hoeveel toetsenisten er zijn.
 
-![image9](images/image9.jpeg)
+![image9](images/image9.png)
 *Afbeedling 5*
 
 ## Overerving en interfaces
@@ -192,7 +192,7 @@ Stel nu dat ons wordt gevraagd om het geheugenmodel te tekenen op het moment dat
 
 In dit voorbeeld wordt een geheugenmodel getekend van een kleine applicatie waarvan het klassendiagram hieronder gegeven is. Zoals je ziet gaat dit voorbeeld over courses bij ICA en is er sprake van overerving, van een static variabele en van een static methode (de getter).
 
-![image15](images/image15.tiff)
+![image15](images/image15.png)
 
 De bijbehorende code is hieronder gegeven:
 
@@ -257,9 +257,8 @@ Als nu het geheugenmodel wordt gevraagd op het moment dat de methodeaanroep op r
 -   In de objecten is niets terug te zien van de overerving: je ziet daar alleen het dynamisch type (in dit geval `Programmeercourse`).
 -   Er is geen relatie getekend tussen de objecten van de klasse *Programmeercourse* en het static element met dezelfde naam.
 -   De methode `getAantalProgrammeercourses` bevat geen `this`, omdat er geen referentie is met een specifiek object (het gaat immers om een static methode).
-![image16](images/image16.tiff)
 
-![image18]([images/image18.png)
+![image16](images/image16.png)
 
 
 [^1]: Feitelijk is een String geen primitief type, maar tijdens OOPD doen we net alsof dat wel zo is.
