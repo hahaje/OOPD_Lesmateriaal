@@ -52,11 +52,16 @@ De naam van het stack frame is altijd de naam van de methode, ook als het gaat o
 
 ## Objecten / instanties
 
-![image5](images/image5.png)
+Objecten (ook wel "instanties" genoemd) staan altijd op de heap. Bovenaan staat de naam van de klasse waarvan het object een instantie is (zo staat er in Afbeelding 1 bij beide objecten `Student`). Objecten in het geheugenmodel bevatten alle variabelen die bij het object horen (static variabelen horen hier *niet* bij, zie paragraaf 2.8). Als je een object op de heap tekent, kun je dus altijd meteen alle eigenschappen (variabelen die bij het object horen) overnemen en er vakjes bij tekenen. Hieronde zie je een klasse `Huis` in code. 
 
-*Afbeelding 3*
+```java
+public class Huis{
+   private String naamEigenaar;
+   private int aantalKamers;
+}
+```
 
-Objecten (ook wel "instanties" genoemd) staan altijd op de heap. Bovenaan staat de naam van de klasse waarvan het object een instantie is (zo staat er in Afbeelding 1 bij beide objecten `Student` en in Afbeelding 3 staat `Huis`). Objecten in het geheugenmodel bevatten alle variabelen die bij het object horen (static variabelen horen hier *niet* bij, zie paragraaf 2.8). Als je een object op de heap tekent, kun je dus altijd meteen alle eigenschappen (variabelen die bij het object horen) overnemen en er vakjes bij tekenen. In Afbeelding 3 zie je een klasse `Huis` in code. Wanneer daarvan ergens in de code een object wordt aangemaakt, wordt dat object op de heap getekend en kunnen beide eigenschappen dus meteen in het object getekend worden.
+Wanneer daarvan ergens in de code een object wordt aangemaakt, wordt dat object op de heap getekend en kunnen beide eigenschappen dus meteen in het object getekend worden.
 
 ## Arrays / ArrayList
 
@@ -176,9 +181,9 @@ Stel nu dat ons wordt gevraagd om het geheugenmodel te tekenen op het moment dat
 
 12. Er wordt een `Boek`-object aangemaakt op de heap (`this` verwijst daarnaar) \[2.C\]. De inhoud van de variabelen in de constructor worden gekopieerd naar het nieuwe object.
 
-![image12](images/image12.png)
-
 13. De constructor wordt van het stack frame verwijderd \[3.A\] en de variabele `eightyFour` verwijst nu naar het nieuwe `Boek`-object.
+
+![image12](images/image12.png)
 
 14. Dezelfde stappen worden nogmaals uitgevoerd voor de aanmaak van een nieuw Boek-object op regel 06. Na afloop bevat de variabele `animalFarm` dus een verwijzing naar dat nieuwe object (de gezette stappen zijn wel te zien in plaatje 3, maar worden hier niet besproken).
 
