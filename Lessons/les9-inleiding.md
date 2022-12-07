@@ -1,0 +1,3 @@
+Normaal is het zo dat je eerst een instantie van een klasse moet maken, dus een object, om de methoden uit te kunnen voeren of variabelen te kunnen benaderen. We kunnen echter ook variabelen (de attributen van de klasse) en methoden als `static` definiëren. In dat geval kunnen we deze variabelen en methoden ook benaderen zonder eerst een object te hebben gecreëerd. Dit kan soms handig en nuttig zijn.
+
+Het keyword `final` kennen we al uit SPB, hiermee kunnen we constanten declareren. Later zullen we ook zien, wanneer we het over overerving (inheritance) gaan hebben, dat je ook `final` voor een methode kunt gebruiken en waarom dit nuttig kan zijn.

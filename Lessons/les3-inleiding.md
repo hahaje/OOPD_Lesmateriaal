@@ -1,0 +1,9 @@
+In deze les worden de begrippen Klasse en Object geïntroduceerd.
+
+Voor nu is het het makkelijkst om een object te definieren als een 'ding' in de wereld om ons heen. Een object zou dan b.v. het huis kunnen zijn waar je in woont. Dat huis is gebouwd van een bepaald materiaal (bv steen) en heeft en bepaalde kleur etc. Als je jouw huis als object ziet, dan kun je de bouwtekening van dat huis zien als Klasse. Een soort blauwdruk dus, aan de hand waarvan het huis is gebouwd. Deze ene bouwtekening kan natuurlijk gebruikt worden om meerdere huizen te bouwen. Die zien er dan min of meer hetzelfde uit, maar kunnen b.v. een andere kleur hebben of van een ander materiaal zijn gebouwd. 
+
+In SPB/SPAD heb je geleerd dat variabelen van een bepaald type moeten zijn, b.v. `int`, `float`, `String`, `boolean`. De type met een kleine letter worden primitieve typen genoemd. Zo kunnen we een variabele `geheelGetal`, als volgt definiëren: `int geheelGetal;`
+
+Met behulp van klassen kunnen we zogeheten complexe types (ook wel: objecttype) introduceren. Om in het bovenstaande voorbeeld te blijven kan ik met de klasse `Huis` een variabele van het type `Huis` declareren, als volgt: `Huis mijnHuis;` 
+
+`mijnHuis` is nu een objectvariabele die allerlei eigenschappen bezit, waaronder dus het bouwmateriaal en de kleur. Het zal je opgevallen zijn dat het objecttype met een hoofdletter begint. Dit een een Java-conventie. De naam van een klasse moet met een hoofdletter beginnen. Wellicht heb je je weleens afgevraagd bij SPB waarom `String` met een hoofdletter moest worden geschreven, terwijl de overige geleerde types met een kleine letter werden geschreven. Dit komt dus vanwege het feit dat `String` geen primitief type is, maar in wezen een objecttype.
