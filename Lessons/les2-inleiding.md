@@ -1,0 +1,1 @@
+Om de werking van je code echt goed te kunnen begrijpen is het noodzakelijk dat je begrijpt waar en hoe Processing en Java de verschillende soorten variabelen opslaan in het geheugen. Je leert dat de ruimte die voor jouw code gereserveerd wordt in het geheugen onderverdeeld is in de Stack en de Heap.
