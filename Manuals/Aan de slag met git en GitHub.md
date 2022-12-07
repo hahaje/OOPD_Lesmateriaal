@@ -4,28 +4,30 @@ Het uitgangspunt van deze tutorial is dat je `Git` succesvol hebt geïnstalleerd
 
 Je kunt Git downloaden via: <https://git-scm.com/downloads>.
 
-De installatie instructies vindt je hier: [Git - Installing Git (git-scm.com)]
+De installatie instructies vindt je hier: ![Git - Installing Git (git-scm.com)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 **Terminologie**
-|---|---|
-|Git | Versiebeheer software |
-|GitHub | Cloud storage die geïntegreerd is met Git.
-|Repository | De plek waar jouw bestanden staan we maken hierbij onderschei tussen de locale repository op je eigen computer en de remote reposity op GitHub|
+| Term | Betekenis |
+| --- | --- |
+| Git | Versiebeheer software |
+| GitHub | Cloud storage die geïntegreerd is met Git |
+| Repository | De plek waar jouw bestanden staan we maken hierbij onderschei tussen de locale repository op je eigen computer en de remote reposity op GitHub |
 
 Er is ontzettend veel materiaal te vinden op internet over werken met Git en GitHub. Mocht je meer informatie willen dan is google-en een goede eerste stap.
 
 Enkele voorbeelden:
 
-[Coding Train: Git and GitHub for Poets] 
+![Coding Train: Git and GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
+
 Een serie video tutorials van Daniel Shiffman, die je wellicht nog wel kent van de Processing filmpjes bij SPB.
 
 Verder zijn de volgende tutorials aan te bevelen:
 
--  [Learn Git In 15 Minutes - YouTube]
+-  ![Learn Git In 15 Minutes - YouTube](https://www.youtube.com/watch?v=USjZcfj8yxE)
 
--  [Git & GitHub Crash Course For Beginners - YouTube]
+-  ![Git & GitHub Crash Course For Beginners - YouTube](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
 
--  [Git Tutorial for Beginners - Git & GitHub Fundamentals In Depth - YouTube]
+-  ![Git Tutorial for Beginners - Git & GitHub Fundamentals In Depth - YouTube](https://www.youtube.com/watch?v=DVRQoVRzMIY)
 
 In dit document worden Git en GitHub uitgelegd in de context van de game die jullie gaan maken met behulp van Yaeger.
 
